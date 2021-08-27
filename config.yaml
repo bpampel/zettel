@@ -12,3 +12,7 @@ params:
   avatar: "baerli.jpg"
   avatarDescription: "cake eater"
   favicon: "cake.ico"
+
+outputs:
+  section: ["JSON", "HTML"]
+  term: ["JSON", "HTML"]

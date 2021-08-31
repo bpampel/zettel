@@ -20,7 +20,7 @@ Generally, the Ellis book[^ellis_2007] seems to be the main entry point for the 
 
 
 
-## papers found (starting point was PhD thesis of Hidalgo, but then also through others)
+## collection of papers from different sources
 
 
 ### from Lu, Lu & Nolen

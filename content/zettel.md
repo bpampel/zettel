@@ -6,11 +6,11 @@ draft: false
 
 # PhD
 - ["Definitions of free energy"](free_energy_definitions_200928)
-- [population dynamics](population dynamics_21-08-31)
+- [population dynamics](population_dynamics_21-08-31)
 
 
 # coding
-- [Git search repository](git search repository_21-07-14)
+- [Git search repository](git_search_repository_21-07-14)
 
 
 # Politik / Gesellschaft / Philosophie

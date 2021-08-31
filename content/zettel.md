@@ -6,6 +6,7 @@ draft: false
 
 # PhD
 - ["Definitions of free energy"](free_energy_definitions_200928)
+- [population dynamics](population dynamics_21-08-31)
 
 
 # coding
@@ -19,6 +20,3 @@ draft: false
 # Natur / Garten
 - [Mischkultur](untitled_21-03-30)
 - [Garten](garten_21-04-16)
-
-
-# Unlinked Notes

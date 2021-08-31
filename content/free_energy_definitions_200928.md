@@ -14,6 +14,6 @@ $F(s) = - \beta^{-1} \ln \int_{R^n} \exp(-\beta V(x)) \delta(s
 What are their differences/similarities?
 
 ### Footnotes
-1. https://doi.org/10.1140/epjst/e2011-01519-7
+[^1]: https://doi.org/10.1140/epjst/e2011-01519-7
 
 

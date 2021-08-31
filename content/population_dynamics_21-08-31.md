@@ -32,7 +32,7 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
   Use (infinitely many) clones with the same dynamics but uncorrelated noise.\
   (nb: the dynamics looks strange on first sight, v = f + noise, so not quite overdamped langevin as in our case. Eq. 3.2 looks nevertheless very similar to the Fokker-Planck operator that we have)\
   "Change of basis" to modify the importance of the drift and diffusion term (or simply a different cloning rate) -> "dynamic importance sampling"
-  After some time delta t, each clone is either duplicated or killed such it is on average replaced by exp(alpha A delta t) clones
+  At each time interval delta t, each clone is either killed or replicated such it is on average replaced by exp(alpha A delta t) clones
 
 #### stuff that is not really related
 - Papers that do probabilistic annihilation on collision, i.e. particles will either scatter elastically or be annihilated:
@@ -46,6 +46,9 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
 
 ### misc
 - Sherman & Peskin (1986) [^sherman_1986] paper that does things surprisingly close to what we do: "create and destroy" some "elements" with certain probability (depending on the time step) at every time step and do a random walk in between. Does not keep the total population constant! (from Burkhard)
+- Anderson (1975) [^anderson_1975], presents an early method of solving a quantum mechanical diffusion problem by the simulation of "random movement of imaginary particles […] subject to a variable chance of multiplicating or disappearance"\
+  Interesting to read, already has the idea of running multiple particles with some random displacement and killing/duplicating them. Modifies the probabilities after each step to keep the total number of particles approximately fixed.
+
 
 Parallel Tempering / multiple walkers metadynamics
 
@@ -58,3 +61,4 @@ Parallel Tempering / multiple walkers metadynamics
 [^coppex_2004]: [Coppex et al., Phys. Rev. E 69, 11303 (2004)](https://doi.org/10.1103/PhysRevE.69.011303)
 [^sherman_1986]: [A. Sherman, C. Peskin, SIAM J. Sci. and Stat. Comput. 1986, 7 (4), 1360–1372](https://doi.org/10.1137/0907090)
 [^giardina_2011]: [C. Giardinà, J. Kurchan, V. Lecomte, and J. Tailleur, J. Stat. Phys. 145, 787 (2011)](https://link.springer.com/article/10.1007%2Fs10955-011-0350-4)
+[^anderson_1975]: [J. B. Anderson, The Journal of Chemical Physics 63, 1499 (1975)](https://doi.org/10.1063/1.431514)

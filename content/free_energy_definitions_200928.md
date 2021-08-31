@@ -11,9 +11,9 @@ In the literature, two different definitions of the free energy are common:
 
 The question is how to interprete the delta function in the following definition [[^1]]
 $F(s) = - \beta^{-1} \ln \int_{R^n} \exp(-\beta V(x)) \delta(s
-What are their differences/similarities? 
+What are their differences/similarities?
 
-= Footnotes =
+### Footnotes
 1. https://doi.org/10.1140/epjst/e2011-01519-7
 
 

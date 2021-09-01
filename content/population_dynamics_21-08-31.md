@@ -31,8 +31,9 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
 - Giardinà et al (2011) [^giardina_2011]. Sample "rare" trajectories via population dynamics\
   Use (infinitely many) clones with the same dynamics but uncorrelated noise.\
   (nb: the dynamics looks strange on first sight, v = f + noise, so not quite overdamped langevin as in our case. Eq. 3.2 looks nevertheless very similar to the Fokker-Planck operator that we have)\
-  "Change of basis" to modify the importance of the drift and diffusion term (or simply a different cloning rate) -> "dynamic importance sampling"
-  At each time interval delta t, each clone is either killed or replicated such it is on average replaced by exp(alpha A delta t) clones
+  "Change of basis" to modify the importance of the drift and diffusion term (or simply a different cloning rate) -> "dynamic importance sampling"\
+  At each time interval delta t, each clone is either killed or replicated such it is on average replaced by exp(alpha A delta t) clones -> not just one but several clones are possible! Enforcement of constant number by duplicating or killing random clones *after* the birth-death step in the algorithm.\
+  Application to Monte Carlo problems (discrete space), but also to one example with Hamilton dynamics:\
 
 #### stuff that is not really related
 - Papers that do probabilistic annihilation on collision, i.e. particles will either scatter elastically or be annihilated:
@@ -50,6 +51,10 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
   Interesting to read, already has the idea of running multiple particles with some random displacement and killing/duplicating them. Modifies the probabilities after each step to keep the total number of particles approximately fixed.
 
 
+from [^giardina_2011]:
+- Something from grassberger, e.g. (https://doi.org/10.1109/SFCS.1994.365742) seems to be frequenly cited. Or one with hsiao-ping, e.g. (https://doi.org/10.1103/PhysRevE.68.021113)?
+- [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
+
 Parallel Tempering / multiple walkers metadynamics
 
 
@@ -62,3 +67,4 @@ Parallel Tempering / multiple walkers metadynamics
 [^sherman_1986]: [A. Sherman, C. Peskin, SIAM J. Sci. and Stat. Comput. 1986, 7 (4), 1360–1372](https://doi.org/10.1137/0907090)
 [^giardina_2011]: [C. Giardinà, J. Kurchan, V. Lecomte, and J. Tailleur, J. Stat. Phys. 145, 787 (2011)](https://link.springer.com/article/10.1007%2Fs10955-011-0350-4)
 [^anderson_1975]: [J. B. Anderson, The Journal of Chemical Physics 63, 1499 (1975)](https://doi.org/10.1063/1.431514)
+

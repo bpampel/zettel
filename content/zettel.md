@@ -7,6 +7,7 @@ draft: false
 # PhD
 - ["Definitions of free energy"](free_energy_definitions_200928)
 - [population dynamics](population_dynamics_21-08-31)
+- [Chaos, ergodicity, and mixing](chaos_ergodicity_mixing_21-09-01)
 
 
 # coding

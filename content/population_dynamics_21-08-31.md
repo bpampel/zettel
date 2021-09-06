@@ -45,13 +45,6 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
   At each time interval delta t, each clone is either killed or replicated such it is on average replaced by exp(alpha A delta t) clones -> not just one but several clones are possible (alpha is "bias factor", "A" is some desired quantity). Enforcement of constant number by duplicating or killing random clones *after* the birth-death step in the algorithm.\
   Application to Monte Carlo problems (discrete space), but also to one example with Hamilton dynamics where they call the algorithm "Lyapunov weighted dynamics": can force more "chaotic" or "integrateable" trajectories
 
-#### stuff that is not really related
-- Papers that do probabilistic annihilation on collision, i.e. particles will either scatter elastically or be annihilated:
-  - Hidalgo mentions Visco et al. (2008) [^visco_2008] as example for a constant population implementation on p. xxii, but I must have misunderstood that.\
-    Upon collision the two particles are removed from the system with fixed probability p and do collision with 1-p
-  - In the previously listed paper they mention Coppex et al. (2004) [^coppex_2004] as major inspiration, but that is also about ballistic annihilation and no cloning
-- Mehl, Speck, Seifert (2008) [^mehl_2008]. *has nothing to do with population dynamics, I looked up the wrong citation*, but maybe something similar (but more relevant) might be good to cite in the thesis\
-  Theoretical calculation of large deviation function for a single colloidal particle moving with overdamped Langevin dynamics
 
 
 
@@ -67,13 +60,19 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
   - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
     (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
-
-from [^giardina_2011]:
-- Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
+- mentioned in [^giardina_2011]: Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
   Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
   proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\
   -> This is not doing any population dynamics but just "moves" particles around when switching the "target" distribution
 
+
+### stuff that is not really related
+- Papers that do probabilistic annihilation on collision, i.e. particles will either scatter elastically or be annihilated:
+  - Hidalgo mentions Visco et al. (2008) [^visco_2008] as example for a constant population implementation on p. xxii, but I must have misunderstood that.\
+    Upon collision the two particles are removed from the system with fixed probability p and do collision with 1-p
+  - In the previously listed paper they mention Coppex et al. (2004) [^coppex_2004] as major inspiration, but that is also about ballistic annihilation and no cloning
+- Mehl, Speck, Seifert (2008) [^mehl_2008]. *has nothing to do with population dynamics, I looked up the wrong citation*, but maybe something similar (but more relevant) might be good to cite in the thesis\
+  Theoretical calculation of large deviation function for a single colloidal particle moving with overdamped Langevin dynamics
 Parallel Tempering / multiple walkers metadynamics
 
 

@@ -6,12 +6,21 @@ draft: false
 ---
 
 
-## Some terms/definitions from PhD Thesis by Esteban Guevara Hidalgo
+## Some terms/definitions
 
-- Algorithms that do population control in a rare event setting are called **cloning algorithms**.
+PhD Thesis by Hidalgo:[^hidalgo_2018]
+- Algorithms that do population control in a rare event setting are also referred to as **cloning algorithms**.
 - Two variants: **non-constant** and **constant total population**: In his opinion the first is advantageous:
   - uniform **pruning**/**cloning** induces correlations into the dynamics
   - when populations are very fluctuating, finite-population effects cause problems (risk of population being wiped out by single clone)
+
+selection of alternative terms for the "birth/death" events:
+- kill / replicate
+- create / destroy
+- kill / duplicate
+alternative terms for the "particles":
+- clones
+- walkers (have actually not yet read this in a paper in the context of population dynamics)
 
 ### Large deviations
 > The mathematical theory of large deviations is concerned with the exponential decay of the probability of extreme events while the number of observations grows.[^mehl_2008]
@@ -49,14 +58,16 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
 - Sherman & Peskin (1986) [^sherman_1986] paper that does things surprisingly close to what we do: "create and destroy" some "elements" with certain probability (depending on the time step) at every time step and do a random walk in between. Does not keep the total population constant! (from Burkhard)
 - Anderson (1975) [^anderson_1975], presents an early method of solving a quantum mechanical diffusion problem by the simulation of "random movement of imaginary particles […] subject to a variable chance of multiplicating or disappearance"\
   Interesting to read, already has the idea of running multiple particles with some random displacement and killing/duplicating them. Modifies the probabilities after each step to keep the total number of particles approximately fixed.
-- Aldous & Vazirani (1994) [^aldous_1994] review "Go with the winners" schemes, similar to genetic schemes but without mating\
-  This is mostly for tree-based schemes. The two presented algorithms either redistribute the "bad" particles to the "good" branches or kill all bad particles and create a "random" number of clones at the good particle positions\
-  Also has a short excurse to combine it with simulated annealing
-  In essence, while this has some cloning it's not that much related to our work.
-
+- "Go with the winner" papers:
+  - Aldous & Vazirani (1994) [^aldous_1994] review "Go with the winners" schemes, similar to genetic schemes but without mating\
+    This is mostly for tree-based schemes. The two presented algorithms either redistribute the "bad" particles to the "good" branches or kill all bad particles and create a "random" number of clones at the good particle positions\
+    Also has a short excurse to combine it with simulated annealing
+    In essence, while this has some cloning it's not that much related to our work.
+  - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
+    Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
+    (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
 
 from [^giardina_2011]:
-- Something from grassberger, e.g. (https://doi.org/10.1109/SFCS.1994.365742) seems to be frequenly cited. Or one with hsiao-ping, e.g. (https://doi.org/10.1103/PhysRevE.68.021113)?
 - [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
 
 Parallel Tempering / multiple walkers metadynamics
@@ -64,6 +75,7 @@ Parallel Tempering / multiple walkers metadynamics
 
 ## Footnotes
 
+[^hidalgo_2018]: [E. Guevara Hidalgo, Cloning Algorithms: from Large Deviations to Population Dynamics, PhD thesis, Université Sorbonne Paris, 2018](https://arxiv.org/abs/1806.01943)
 [^ellis_2007]: [R. S. Ellis, Entropy, large deviations, and statistical mechanics (Springer, 2007)](https://doi.org/10.1007/3-540-29060-5)
 [^mehl_2008]: [J. Mehl, T. Speck, and U. Seifert, Phys. Rev. E 78, 011123 (2008)](https://doi.org/10.1103/PhysRevE.78.011123)
 [^visco_2008]: [P. Visco, F. van Wijland, and E. Trizac, Phys. Rev. E 77, 041117 (2008)](https://doi.org/10.1103/PhysRevE.77.041117)
@@ -72,4 +84,5 @@ Parallel Tempering / multiple walkers metadynamics
 [^giardina_2011]: [C. Giardinà, J. Kurchan, V. Lecomte, and J. Tailleur, J. Stat. Phys. 145, 787 (2011)](https://link.springer.com/article/10.1007%2Fs10955-011-0350-4)
 [^anderson_1975]: [J. B. Anderson, The Journal of Chemical Physics 63, 1499 (1975)](https://doi.org/10.1063/1.431514)
 [^aldous_1994]: [D. Aldous and U. Vazirani, in Foundations of Computer Science, 35th (IEEE, 1994), pp. 492–501.](https://doi.org/10.1109/SFCS.1994.365742)
+[^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1109/SFCS.1994.365742)
 

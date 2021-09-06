@@ -23,6 +23,7 @@ alternative terms for the "particles":
 - walkers (have actually not yet read this in a paper in the context of population dynamics)
 
 ### Large deviations
+many papers with population dynamics mention large deviations
 > The mathematical theory of large deviations is concerned with the exponential decay of the probability of extreme events while the number of observations grows.[^mehl_2008]
 
 Generally, the Ellis book[^ellis_2007] seems to be the main entry point for the theory of large deviations
@@ -68,7 +69,10 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
     (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
 
 from [^giardina_2011]:
-- [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
+- Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
+  Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
+  proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\
+  -> This is not doing any population dynamics but just "moves" particles around when switching the "target" distribution
 
 Parallel Tempering / multiple walkers metadynamics
 
@@ -86,3 +90,4 @@ Parallel Tempering / multiple walkers metadynamics
 [^aldous_1994]: [D. Aldous and U. Vazirani, in Foundations of Computer Science, 35th (IEEE, 1994), pp. 492–501.](https://doi.org/10.1109/SFCS.1994.365742)
 [^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1109/SFCS.1994.365742)
 
+[^delmoral_2006]: [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)

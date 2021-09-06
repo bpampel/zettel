@@ -63,7 +63,8 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
 - mentioned in [^giardina_2011]: Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
   Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
   proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\
-  -> This is not doing any population dynamics but just "moves" particles around when switching the "target" distribution
+  Only brushed through the paper but it seems to me that this is not doing population dynamics but just "moves" particles around when switching the "target" distribution. There is a sentence saying that the "algorithms can be interpreted as interacting particle approximations of a Feynman-Kac flow in distribution space", but not sure about the exact algorithm and the particle interpretation (generally a very "mathy" paper, so hard to understand what they are exactly doing).\
+  Feynman-Kac: Wiener-Process with added diffusion term, i.e. particles get "killed" over time
 
 
 ### stuff that is not really related

@@ -43,7 +43,7 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   1: drive the particles towards the high probability regions of the target distribution p(x)\
   2: act as repulsive force between the particles via the gradient of a kernel\
   The first term alone would result in typical gradient ascent for maximizing log p(x)\
-  The second term has a similar idea than our KDE term, it also vanishes for the bandwidth -> 0
+  The second term has a similar idea than our KDE term, it also vanishes for the bandwidth -> 0\
   To summarize: *movement of interacting particles, idea of KL divergence between "current" and "target" distribution, usage of a kernel to drive particles away from each other. No birth-death*
 - also mentioned in [^giardina_2011]: Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
   Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
@@ -74,6 +74,7 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
     (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
+- There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches
 
 
 ### stuff that is not really related
@@ -100,4 +101,5 @@ Parallel Tempering / multiple walkers metadynamics
 [^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1109/SFCS.1994.365742)
 
 [^delmoral_2006]: [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
-[^liu_2016]: Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.
+[^liu_2016]: [Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
+[^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)

@@ -22,6 +22,8 @@ alternative terms for the "particles":
 - clones
 - walkers (have actually not yet read this in a paper in the context of population dynamics)
 
+Many related papers I found apply their method to Bayesian inference problems
+
 ### Large deviations
 many papers with population dynamics mention large deviations
 > The mathematical theory of large deviations is concerned with the exponential decay of the probability of extreme events while the number of observations grows.[^mehl_2008]

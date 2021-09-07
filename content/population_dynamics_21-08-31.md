@@ -34,8 +34,21 @@ Generally, the Ellis book[^ellis_2007] seems to be the main entry point for the 
 
 
 ### from Lu, Lu & Nolen
-The Lu, Lu & Nolen paper doesn't seem to have much good literature:
- - 3 papers on Stein variational gradient descent (SVGD)
+The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
+- 3 papers on Stein variational gradient descent (SVGD) by roughly the same people\
+  In Liu (2016) [^liu_2016] an algorithm called "Bayesian Inference via Variational Gradient Descent" is proposed.\
+  It uses a set of particles whose movements depend on the positions of all particles.\
+  The two terms of the interaction\
+  1. drive the particles towards the high probability regions of the target distribution p(x)
+  2. act as repulsive force between the particles via the gradient of a kernel
+  The first term alone would result in typical gradient ascent for maximizing log p(x)\
+  The second term has a similar idea than our KDE term, it also vanishes for the bandwidth -> 0
+  To summarize: *movement of interacting particles, that also uses a kernel to drive particles away from each other*
+- also mentioned in [^giardina_2011]: Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
+  Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
+  proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\
+  Only brushed through the paper but it seems to me that this is not doing population dynamics but just "moves" particles around when switching the "target" distribution. There is a sentence saying that the "algorithms can be interpreted as interacting particle approximations of a Feynman-Kac flow in distribution space", but not sure about the exact algorithm and the particle interpretation (generally a very "mathy" paper, so hard to understand what they are exactly doing).\
+  Feynman-Kac: Wiener-Process with added diffusion term, i.e. particles get "killed" over time
 
 ### from Hidalgo's PhD thesis
 - Giardinà et al (2011) [^giardina_2011]. Sample "rare" trajectories via population dynamics\
@@ -60,11 +73,6 @@ The Lu, Lu & Nolen paper doesn't seem to have much good literature:
   - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
     (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
-- mentioned in [^giardina_2011]: Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
-  Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
-  proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\
-  Only brushed through the paper but it seems to me that this is not doing population dynamics but just "moves" particles around when switching the "target" distribution. There is a sentence saying that the "algorithms can be interpreted as interacting particle approximations of a Feynman-Kac flow in distribution space", but not sure about the exact algorithm and the particle interpretation (generally a very "mathy" paper, so hard to understand what they are exactly doing).\
-  Feynman-Kac: Wiener-Process with added diffusion term, i.e. particles get "killed" over time
 
 
 ### stuff that is not really related
@@ -91,3 +99,4 @@ Parallel Tempering / multiple walkers metadynamics
 [^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1109/SFCS.1994.365742)
 
 [^delmoral_2006]: [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
+[^liu_2016]: Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.

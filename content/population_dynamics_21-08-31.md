@@ -39,7 +39,7 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   In Liu (2016) [^liu_2016] an algorithm called "Bayesian Inference via Variational Gradient Descent" is proposed.\
   It uses a set of particles whose movements depend on the positions of all particles.\
   The idea is to minimize the KL divergence from the current to a target distribution while preventing that all particles collapse together\
-  The two terms of the interaction can be interpreted as\
+  The two terms of the interaction can be interpreted as
   1. drive the particles towards the high probability regions of the target distribution p(x)
   2. act as repulsive force between the particles via the gradient of a kernel\
   The first term alone would result in typical gradient ascent for maximizing log p(x)\

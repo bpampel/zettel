@@ -18,6 +18,7 @@ selection of alternative terms for the "birth/death" events:
 - kill / replicate
 - create / destroy
 - kill / duplicate
+
 alternative terms for the "particles":
 - clones
 - walkers (have actually not yet read this in a paper in the context of population dynamics)

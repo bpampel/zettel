@@ -38,12 +38,13 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
 - 3 papers on Stein variational gradient descent (SVGD) by roughly the same people\
   In Liu (2016) [^liu_2016] an algorithm called "Bayesian Inference via Variational Gradient Descent" is proposed.\
   It uses a set of particles whose movements depend on the positions of all particles.\
-  The two terms of the interaction\
+  The idea is to minimize the KL divergence from the current to a target distribution while preventing that all particles collapse together\
+  The two terms of the interaction can be interpreted as\
   1. drive the particles towards the high probability regions of the target distribution p(x)
   2. act as repulsive force between the particles via the gradient of a kernel
   The first term alone would result in typical gradient ascent for maximizing log p(x)\
   The second term has a similar idea than our KDE term, it also vanishes for the bandwidth -> 0
-  To summarize: *movement of interacting particles, that also uses a kernel to drive particles away from each other*
+  To summarize: *movement of interacting particles, idea of KL divergence between "current" and "target" distribution, usage of a kernel to drive particles away from each other. No birth-death*
 - also mentioned in [^giardina_2011]: Del Moral et al (2006)[^delmoral_2006] use "clouds of weighted random samples" to sample *sequentially* from different probability distributions.\
   Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
   proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\

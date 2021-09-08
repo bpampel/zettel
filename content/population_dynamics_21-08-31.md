@@ -76,7 +76,8 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
     (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
-
+- "Adaptive Direction Sampling"[^gilks_1993]: MCMC technique with multiple particles, where moves are done along "lines" between the current and another random particle: brings particles closer together (?!) (*only read the abstract and first part*)
+- Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself
 
 ### new papers
 - There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches:\
@@ -118,3 +119,4 @@ Parallel Tempering / multiple walkers metadynamics
 [^liu_2016]: [Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
 [^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)
 [^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)
+[^simpson_2013]: [M. J. Simpson, J. A. Sharp, and R. E. Baker, “Distinguishing between mean-field, moment dynamics and stochastic descriptions of birth–death–movement processes,” Physica A: Statistical Mechanics and its Applications, vol. 395, pp. 236–246, 2014](https://doi.org/10.1016/j.physa.2013.10.026)

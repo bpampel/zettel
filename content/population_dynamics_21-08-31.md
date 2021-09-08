@@ -88,7 +88,7 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   They only use a somewhat different approach to the "cloning" idea though:\
   1: uniformly select a random particle to clone and do a MCMC step with the new particle
   2: select another one to delete according to weights depending on how likely it is that the next MCMC step will go to the position of any other particle.
-  Basically: clone random particles, delete particles close to other particles. Note that this does not require a KDE but just the MCMC probabilities.
+  Basically: clone random particle, delete particle close to other particles. Note that this does not require a KDE but just the MCMC probabilities.
 
 
 ### stuff that is not really related

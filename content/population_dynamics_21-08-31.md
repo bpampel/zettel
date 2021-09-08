@@ -75,7 +75,7 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
     In essence, while this has some cloning it's not that much related to our work.
   - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
-    (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
+    (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113 ))
 - "Adaptive Direction Sampling"[^gilks_1993]: MCMC technique with multiple particles, where moves are done along "lines" between the current and another random particle: brings particles closer together (?!) (*only read the abstract and first part*)
 - Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself
 

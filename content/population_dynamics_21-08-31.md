@@ -119,4 +119,6 @@ Parallel Tempering / multiple walkers metadynamics
 [^liu_2016]: [Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
 [^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)
 [^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)
+[^gilks_1993]: [W. R. Gilks, G. O. Roberts, and E. I. George, “Adaptive Direction Sampling,” The Statistician, vol. 43, no. 1, p. 179, 1994](https://doi.org/10.2307/2348942)
+
 [^simpson_2013]: [M. J. Simpson, J. A. Sharp, and R. E. Baker, “Distinguishing between mean-field, moment dynamics and stochastic descriptions of birth–death–movement processes,” Physica A: Statistical Mechanics and its Applications, vol. 395, pp. 236–246, 2014](https://doi.org/10.1016/j.physa.2013.10.026)

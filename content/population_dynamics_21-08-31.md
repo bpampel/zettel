@@ -54,6 +54,7 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   Only brushed through the paper but it seems to me that this is not doing population dynamics but just "moves" particles around when switching the "target" distribution. There is a sentence saying that the "algorithms can be interpreted as interacting particle approximations of a Feynman-Kac flow in distribution space", but not sure about the exact algorithm and the particle interpretation (generally a very "mathy" paper, so hard to understand what they are exactly doing).\
   Feynman-Kac: Wiener-Process with added diffusion term, i.e. particles get "killed" over time
 
+
 ### from Hidalgo's PhD thesis
 - Giardinà et al (2011) [^giardina_2011]. Sample "rare" trajectories via population dynamics\
   Use (infinitely many) clones with the same dynamics but uncorrelated noise.\
@@ -61,7 +62,6 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   "Change of basis" to modify the importance of the drift and diffusion term (or simply a different cloning rate) -> "dynamic importance sampling"\
   At each time interval delta t, each clone is either killed or replicated such it is on average replaced by exp(alpha A delta t) clones -> not just one but several clones are possible (alpha is "bias factor", "A" is some desired quantity). Enforcement of constant number by duplicating or killing random clones *after* the birth-death step in the algorithm.\
   Application to Monte Carlo problems (discrete space), but also to one example with Hamilton dynamics where they call the algorithm "Lyapunov weighted dynamics": can force more "chaotic" or "integrateable" trajectories
-
 
 
 
@@ -77,10 +77,14 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   - Grassberger (2002) [^grassberger_2002] uses population control for Monte Carlo simulations of polymer systems\
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
     (Maybe read also one with Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) )
+
+
+### new papers
 - There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches:\
   Doesn't really give algorithms but has a lot of the ideas (e.g. multiple interacting particles for solving the FPE) in it and describes a lot of things more explicitely than Lu, Lu, Nolen, (e.g. how the FPE can be reformulated with the KL divergence between the current and the target distribution).\
   It's too mathy and doesn't offer a clear "algorithm" section (and their practical examples are solving some differential equations), so it's hard to really understand what they are doing/proposing when just quickly brushing over it.\
   *this might be interesting for a closer read.*
+
 
 ### stuff that is not really related
 - Papers that do probabilistic annihilation on collision, i.e. particles will either scatter elastically or be annihilated:

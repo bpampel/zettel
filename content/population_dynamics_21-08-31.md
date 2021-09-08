@@ -22,7 +22,7 @@ alternative terms for the "particles":
 - clones
 - walkers (have actually not yet read this in a paper in the context of population dynamics)
 
-Many related papers I found apply their method to Bayesian inference problems
+Many related papers I found use Bayesian inference or varational inference as starting point -> maybe mention these "tags" for families of related works
 
 ### Large deviations
 many papers with population dynamics mention large deviations
@@ -78,6 +78,9 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
     There is also one from Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) that uses a variant of the growth-based algorithm to get polymer conformations. I think this is not really similar to our work but might also be cited as an example of the "go-with-the-winners" strategy.
 - "Adaptive Direction Sampling"[^gilks_1993]: MCMC technique with multiple particles, where moves are done along "lines" between the current and another random particle: brings particles closer together (?!) (*only read the abstract and first part*)
 - Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself
+- Rotskoff et al (2019)[^rotskoff_2019] applies birth-death to the optimization process of a neural networks. This is mostly a mathy paper with proofs but the actual implementation in sec 5 uses exactly the same idea for the birth-death events than we do.
+  So this contains a very similar idea to ours, just that they do not want the samples but just the solution of the PDE, which acts as a gradient descent (didn't fully read how the optimization works, this is just a quick summary)
+- u
 
 ### new papers
 - There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches:\
@@ -122,3 +125,5 @@ Parallel Tempering / multiple walkers metadynamics
 [^gilks_1993]: [W. R. Gilks, G. O. Roberts, and E. I. George, “Adaptive Direction Sampling,” The Statistician, vol. 43, no. 1, p. 179, 1994](https://doi.org/10.2307/2348942)
 
 [^simpson_2013]: [M. J. Simpson, J. A. Sharp, and R. E. Baker, “Distinguishing between mean-field, moment dynamics and stochastic descriptions of birth–death–movement processes,” Physica A: Statistical Mechanics and its Applications, vol. 395, pp. 236–246, 2014](https://doi.org/10.1016/j.physa.2013.10.026)
+[^rotskoff_2019]: [G. Rotskoff, S. Jelassi, J. Bruna, and E. Vanden-Eijnden, “Global convergence of neuron birth-death dynamics,” presented at the 36th International Conference on Machine Learning (ICML 2019), 2019.](http://statmech.stanford.edu/publication/rotskoff-global-2019-1/)
+

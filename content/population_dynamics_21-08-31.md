@@ -84,6 +84,11 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   Doesn't really give algorithms but has a lot of the ideas (e.g. multiple interacting particles for solving the FPE) in it and describes a lot of things more explicitely than Lu, Lu, Nolen, (e.g. how the FPE can be reformulated with the KL divergence between the current and the target distribution).\
   It's too mathy and doesn't offer a clear "algorithm" section (and their practical examples are solving some differential equations), so it's hard to really understand what they are doing/proposing when just quickly brushing over it.\
   *this might be interesting for a closer read.*
+- Lindsey et al (2021)[^lindsey_2021] put a paper on the arXiv where they use birth-death steps together with Markov chain Monte Carlo.
+  They only use a somewhat different approach to the "cloning" idea though:\
+  1: uniformly select a random particle to clone and do a MCMC step with the new particle
+  2: select another one to delete according to weights depending on how likely it is that the next MCMC step will go to the position of any other particle.
+  Basically: clone random particles, delete particles close to other particles. Note that this does not require a KDE but just the MCMC probabilities.
 
 
 ### stuff that is not really related
@@ -112,3 +117,4 @@ Parallel Tempering / multiple walkers metadynamics
 [^delmoral_2006]: [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
 [^liu_2016]: [Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
 [^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)
+[^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)

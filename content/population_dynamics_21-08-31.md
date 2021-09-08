@@ -83,12 +83,13 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
 - There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches:\
   Doesn't really give algorithms but has a lot of the ideas (e.g. multiple interacting particles for solving the FPE) in it and describes a lot of things more explicitely than Lu, Lu, Nolen, (e.g. how the FPE can be reformulated with the KL divergence between the current and the target distribution).\
   It's too mathy and doesn't offer a clear "algorithm" section (and their practical examples are solving some differential equations), so it's hard to really understand what they are doing/proposing when just quickly brushing over it.\
-  *this might be interesting for a closer read.*
+  *this might be interesting for a closer read. Note: I only read the arXiv version, the other isn't available from the MPIP*
 - Lindsey et al (2021)[^lindsey_2021] put a paper on the arXiv where they use birth-death steps together with Markov chain Monte Carlo.
   They only use a somewhat different approach to the "cloning" idea though:\
-  1: uniformly select a random particle to clone and do a MCMC step with the new particle
-  2: select another one to delete according to weights depending on how likely it is that the next MCMC step will go to the position of any other particle.
-  Basically: clone random particle, delete particle close to other particles. Note that this does not require a KDE but just the MCMC probabilities.
+  1: uniformly select a random particle to clone and do a MCMC step with the new particle\
+  2: select another one to delete according to weights depending on how likely it is that the next MCMC step will go to the position of any other particle.\
+  Basically: clone random particle, delete particle close to other particles. Note that this is not named a KDE but as they use gaussians for the MCMC probabilities it is pretty similar.\
+  They also deal with doing the birth-death only on some subset of the dimensions (sec 4), although they assume that splitting the target distribution is easily possible
 
 
 ### stuff that is not really related

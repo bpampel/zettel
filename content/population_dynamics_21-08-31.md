@@ -81,7 +81,6 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
     Starting with sequential importance sampling: Duplicate configurations with MC weights above some threshold and assign half weight. Kill population below some threshold with 0.5 probability, if it survives double the weight.\
     There is also one from Hsiao-Ping (https://doi.org/10.1103/PhysRevE.68.021113) that uses a variant of the growth-based algorithm to get polymer conformations. I think this is not really similar to our work but might also be cited as an example of the "go-with-the-winners" strategy.
 - "Adaptive Direction Sampling"[^gilks_1993]: MCMC technique with multiple particles, where moves are done along "lines" between the current and another random particle: brings particles closer together (?!) (*only read the abstract and first part*)
-- Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself
 - Rotskoff et al (2019)[^rotskoff_2019] applies birth-death to the optimization process of a neural networks. This is mostly a mathy paper with proofs but the actual implementation in sec 5 uses exactly the same idea for the birth-death events than we do.
   So this contains a very similar idea to ours, just that they do not want the samples but just the solution of the PDE, which acts as a gradient descent (didn't fully read how the optimization works, this is just a quick summary).\
   This is only a conference paper, though. Maybe there is a better (newer) paper?
@@ -111,6 +110,9 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   - In the previously listed paper they mention Coppex et al. (2004) [^coppex_2004] as major inspiration, but that is also about ballistic annihilation and no cloning
 - Mehl, Speck, Seifert (2008) [^mehl_2008]. *has nothing to do with population dynamics, I looked up the wrong citation*, but maybe something similar (but more relevant) might be good to cite in the thesis\
   Theoretical calculation of large deviation function for a single colloidal particle moving with overdamped Langevin dynamics
+- Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself
+
+### ideas to look for
 Parallel Tempering / multiple walkers metadynamics
 
 

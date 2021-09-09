@@ -85,6 +85,11 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
 - Rotskoff et al (2019)[^rotskoff_2019] applies birth-death to the optimization process of a neural networks. This is mostly a mathy paper with proofs but the actual implementation in sec 5 uses exactly the same idea for the birth-death events than we do.
   So this contains a very similar idea to ours, just that they do not want the samples but just the solution of the PDE, which acts as a gradient descent (didn't fully read how the optimization works, this is just a quick summary).\
   This is only a conference paper, though. Maybe there is a better (newer) paper?
+- Paper by Nemoto, Hidalgo and Lecomte (2017)[^nemoto_2017] that might be citeable instead of the PhD thesis:\
+  (contains lots of refereces to population dynamics papers)\
+  It's based on Giardina (2011)[^giardina_2011] and evaluates the stochastic errors of the method.
+  It uses discrete states and assigns a "desired number of copies" to each state by a transition matrix (depending on all states), but the construction makes sure that the total population is kept fixed during the cloning steps.
+  What exactly the transition matrix is (i.e. what configurations should be preferred) is left open in the general theory, and not too well explained in the simple example, so I didn't understand it when brushing over.
 
 ### new papers
 - There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches:\
@@ -130,6 +135,8 @@ Parallel Tempering / multiple walkers metadynamics
 [^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)
 [^gilks_1993]: [W. R. Gilks, G. O. Roberts, and E. I. George, “Adaptive Direction Sampling,” The Statistician, vol. 43, no. 1, p. 179, 1994](https://doi.org/10.2307/2348942)
 
-[^simpson_2013]: [M. J. Simpson, J. A. Sharp, and R. E. Baker, “Distinguishing between mean-field, moment dynamics and stochastic descriptions of birth–death–movement processes,” Physica A: Statistical Mechanics and its Applications, vol. 395, pp. 236–246, 2014](https://doi.org/10.1016/j.physa.2013.10.026)
+[^simpson_2013]: [M. J. Simpson, J. A. Sharp, and R. E. Baker, Physica A: Statistical Mechanics and its Applications, vol. 395, pp. 236–246, (2014)](https://doi.org/10.1016/j.physa.2013.10.026)
 [^rotskoff_2019]: [G. Rotskoff, S. Jelassi, J. Bruna, and E. Vanden-Eijnden, “Global convergence of neuron birth-death dynamics,” presented at the 36th International Conference on Machine Learning (ICML 2019), 2019.](http://statmech.stanford.edu/publication/rotskoff-global-2019-1/)
+[^nemoto_2017]: [T. Nemoto, E. G. Hidalgo, and V. Lecomte, Physical Review E, vol. 95, no. 1, p. 012102 (2017)](https://doi.org/10.1103/physreve.95.012102)
+
 

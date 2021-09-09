@@ -129,7 +129,7 @@ Parallel Tempering / multiple walkers metadynamics
 
 [^delmoral_2006]: [P. Del Moral, A. Doucet, and A. Jasra: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
 
-[^delmoral_2005] [P. Del Moral and J. Garnier, Ann. Appl. Probab. 15, 2496 (2005)](https://doi.org/10.1214/105051605000000566)
+[^delmoral_2005]: [P. Del Moral and J. Garnier, Ann. Appl. Probab. 15, 2496 (2005)](https://doi.org/10.1214/105051605000000566)
 [^liu_2016]: [Q. Liu, and D. Wang, Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
 [^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)
 [^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)

@@ -7,11 +7,9 @@ draft: false
 
 ## Leseliste
 
-- May Ayim - [Blues in Schwarz Weiß](https://unrast-verlag.de/gesamtprogramm/allgemeines-programm/belletristik/blues-in-schwarz-weiss-nachtgesang-detail)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [Feminism is for everybody](https://www.amazon.de/FEMINISM-EVERYBODY-Passionate-bell-hooks/dp/0745317332), [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
 - James Rebanks - [The Shepherds Life](https://www.buecher.de/shop/wirtschaft/the-shepherds-life/rebanks-james/products_products/detail/prod_id/43852434/)
-- Elsa Fernández - [Fragmente über das Überleben](https://www.unrast-verlag.de/neuerscheinungen/fragmente-ueber-das-ueberleben-detail)
 - Aiko Kempen - [Auf dem rechten Weg](https://europa-verlag.com/Buecher/6565/AufdemrechtenWeg.html)
 - Aischa Ahmed - [Arabische Präsenzen in Deutschland um 1900](https://www.transcript-verlag.de/978-3-8376-5411-0/arabische-praesenzen-in-deutschland-um-1900/)
 - Edzard Ernst - [Alternativmedizin](https://www.gu.de/produkte/koerper-geist-seele/alternativ-heilen/alternativmedizin-was-hilft-was-schadet-ernst-2021/)

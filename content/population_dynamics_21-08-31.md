@@ -20,7 +20,7 @@ selection of alternative terms for the "birth/death" events:
 
 alternative terms for the "particles":
 - clones
-- walkers (have actually not yet read this in a paper in the context of population dynamics)
+- walkers
 
 Many related papers I found use Bayesian inference or varational inference as starting point -> maybe mention these "tags" for families of related works
 

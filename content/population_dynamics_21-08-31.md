@@ -125,7 +125,7 @@ Parallel Tempering / multiple walkers metadynamics
 [^giardina_2011]: [C. Giardinà, J. Kurchan, V. Lecomte, and J. Tailleur, J. Stat. Phys. 145, 787 (2011)](https://link.springer.com/article/10.1007%2Fs10955-011-0350-4)
 [^anderson_1975]: [J. B. Anderson, The Journal of Chemical Physics 63, 1499 (1975)](https://doi.org/10.1063/1.431514)
 [^aldous_1994]: [D. Aldous and U. Vazirani, in Foundations of Computer Science, 35th (IEEE, 1994), pp. 492–501.](https://doi.org/10.1109/SFCS.1994.365742)
-[^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1109/SFCS.1994.365742)
+[^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1016/S0010-4655\(02\)00205-9)
 
 [^delmoral_2006]: [P. Del Moral, A. Doucet, and A. Jasra: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
 

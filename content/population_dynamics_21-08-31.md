@@ -69,11 +69,11 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
 
 
 ### misc
-- Sherman & Peskin (1986) [^sherman_1986] paper that does things surprisingly close to what we do: "create and destroy" some "elements" with certain probability (depending on the time step) at every time step and do a random walk in between. Does not keep the total population constant! (from Burkhard)
-- Anderson (1975) [^anderson_1975], presents an early method of solving a quantum mechanical diffusion problem by the simulation of "random movement of imaginary particles […] subject to a variable chance of multiplicating or disappearance"\
+- Sherman & Peskin (1986)[^sherman_1986] paper that does things surprisingly close to what we do: "create and destroy" some "elements" with certain probability (depending on the time step) at every time step and do a random walk in between. Does not keep the total population constant! (from Burkhard)
+- Anderson (1975)[^anderson_1975] presents an early method of solving a quantum mechanical diffusion problem by the simulation of "random movement of imaginary particles […] subject to a variable chance of multiplicating or disappearance"\
   Interesting to read, already has the idea of running multiple particles with some random displacement and killing/duplicating them. Modifies the probabilities after each step to keep the total number of particles approximately fixed.
 - "Go with the winner" papers:
-  - Aldous & Vazirani (1994) [^aldous_1994] review "Go with the winners" schemes, similar to genetic schemes but without mating\
+  - Aldous & Vazirani (1994)[^aldous_1994] review "Go with the winners" schemes, similar to genetic schemes but without mating\
     This is mostly for tree-based schemes. The two presented algorithms either redistribute the "bad" particles to the "good" branches or kill all bad particles and create a "random" number of clones at the good particle positions\
     Also has a short excurse to combine it with simulated annealing
     In essence, while this has some cloning it's not that much related to our work.
@@ -105,9 +105,9 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
 
 ### stuff that is not really related
 - Papers that do probabilistic annihilation on collision, i.e. particles will either scatter elastically or be annihilated:
-  - Hidalgo mentions Visco et al. (2008) [^visco_2008] as example for a constant population implementation on p. xxii, but I must have misunderstood that.\
+  - Hidalgo mentions Visco et al. (2008)[^visco_2008] as example for a constant population implementation on p. xxii, but I must have misunderstood that.\
     Upon collision the two particles are removed from the system with fixed probability p and do collision with 1-p
-  - In the previously listed paper they mention Coppex et al. (2004) [^coppex_2004] as major inspiration, but that is also about ballistic annihilation and no cloning
+  - In the previously listed paper they mention Coppex et al. (2004)[^coppex_2004] as major inspiration, but that is also about ballistic annihilation and no cloning
 - Mehl, Speck, Seifert (2008) [^mehl_2008]. *has nothing to do with population dynamics, I looked up the wrong citation*, but maybe something similar (but more relevant) might be good to cite in the thesis\
   Theoretical calculation of large deviation function for a single colloidal particle moving with overdamped Langevin dynamics
 - Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself

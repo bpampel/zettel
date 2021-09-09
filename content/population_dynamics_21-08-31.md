@@ -130,7 +130,7 @@ Parallel Tempering / multiple walkers metadynamics
 [^delmoral_2006]: [P. Del Moral, A. Doucet, and A. Jasra: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
 
 [^delmoral_2005] [P. Del Moral and J. Garnier, Ann. Appl. Probab. 15, 2496 (2005)](https://doi.org/10.1214/105051605000000566)
-[^liu_2016]: [Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
+[^liu_2016]: [Q. Liu, and D. Wang, Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
 [^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)
 [^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)
 [^gilks_1993]: [W. R. Gilks, G. O. Roberts, and E. I. George, “Adaptive Direction Sampling,” The Statistician, vol. 43, no. 1, p. 179, 1994](https://doi.org/10.2307/2348942)
@@ -138,5 +138,3 @@ Parallel Tempering / multiple walkers metadynamics
 [^simpson_2013]: [M. J. Simpson, J. A. Sharp, and R. E. Baker, Physica A: Statistical Mechanics and its Applications, vol. 395, pp. 236–246, (2014)](https://doi.org/10.1016/j.physa.2013.10.026)
 [^rotskoff_2019]: [G. Rotskoff, S. Jelassi, J. Bruna, and E. Vanden-Eijnden, “Global convergence of neuron birth-death dynamics,” presented at the 36th International Conference on Machine Learning (ICML 2019), 2019.](http://statmech.stanford.edu/publication/rotskoff-global-2019-1/)
 [^nemoto_2017]: [T. Nemoto, E. G. Hidalgo, and V. Lecomte, Physical Review E, vol. 95, no. 1, p. 012102 (2017)](https://doi.org/10.1103/physreve.95.012102)
-
-

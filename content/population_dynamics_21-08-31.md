@@ -51,7 +51,11 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
   Applications are e.g. if the distributions are updated after more information (data) becomes available: "Alternatively, we may want to move from a tractable (easy-to-sample) distribution pi_1 to a distribution of interest, pi_n, through a sequence of artificial intermediate distributions"\
   proposes a Sequential Monte Carlo Sampling (SMC) method, that moves from the current "particle" positions obtained from sampling pi_{n-1} to the next distribution by applying a Markov kernel.\
   Only brushed through the paper but it seems to me that this is not doing population dynamics but just "moves" particles around when switching the "target" distribution. There is a sentence saying that the "algorithms can be interpreted as interacting particle approximations of a Feynman-Kac flow in distribution space", but not sure about the exact algorithm and the particle interpretation (generally a very "mathy" paper, so hard to understand what they are exactly doing).\
-  Feynman-Kac: Wiener-Process with added diffusion term, i.e. particles get "killed" over time
+  Feynman-Kac: Wiener-Process with added diffusion term, i.e. particles get "killed" over time\
+- Probably a better paper for the algorithm by the same main author is the 2005 one:[^delmoral_2005]\
+  The method is to estimate the "rare" parts of some problem, i.e. the parts that can't be easily sampled by plain MC\
+  For their cloning they choose particles with high Gibbs measure, i.e. "rare" particles.\
+  If I understand it correctly, they always "mutate" all particles, i.e. for every particle they choose one from the total set, with probability according to the Gibbs measure.
 
 
 ### from Hidalgo's PhD thesis
@@ -79,8 +83,8 @@ The Lu, Lu & Nolen paper doesn't seem to have many citations of "related work"
 - "Adaptive Direction Sampling"[^gilks_1993]: MCMC technique with multiple particles, where moves are done along "lines" between the current and another random particle: brings particles closer together (?!) (*only read the abstract and first part*)
 - Simpson et al. (2013)[^simpson_2013] is about birth-death dynamic models for e.g. biological cell system. It doesn't use multiple "imaginary" particles for sampling, but rather wants to get the time evolution of the particles itself
 - Rotskoff et al (2019)[^rotskoff_2019] applies birth-death to the optimization process of a neural networks. This is mostly a mathy paper with proofs but the actual implementation in sec 5 uses exactly the same idea for the birth-death events than we do.
-  So this contains a very similar idea to ours, just that they do not want the samples but just the solution of the PDE, which acts as a gradient descent (didn't fully read how the optimization works, this is just a quick summary)
-- u
+  So this contains a very similar idea to ours, just that they do not want the samples but just the solution of the PDE, which acts as a gradient descent (didn't fully read how the optimization works, this is just a quick summary).\
+  This is only a conference paper, though. Maybe there is a better (newer) paper?
 
 ### new papers
 - There is a new paper by Reich & Weissmann[^reich_2021] that somewhat mathy presents some approaches at solving the Fokker-Planck equation with multiple-particle approaches:\
@@ -118,7 +122,9 @@ Parallel Tempering / multiple walkers metadynamics
 [^aldous_1994]: [D. Aldous and U. Vazirani, in Foundations of Computer Science, 35th (IEEE, 1994), pp. 492–501.](https://doi.org/10.1109/SFCS.1994.365742)
 [^grassberger_2002]: [P. Grassberger, Comp Phys Comm 147 (2002) 64–70](https://doi.org/10.1109/SFCS.1994.365742)
 
-[^delmoral_2006]: [Del Moral, P., Doucet, A., Jasra, A.: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
+[^delmoral_2006]: [P. Del Moral, A. Doucet, and A. Jasra: J. R. Stat. Soc., Ser. B, Stat. Methodol. 68, 411–436 (2006)](https://doi.org/10.1111%2Fj.1467-9868.2006.00553.x)
+
+[^delmoral_2005] [P. Del Moral and J. Garnier, Ann. Appl. Probab. 15, 2496 (2005)](https://doi.org/10.1214/105051605000000566)
 [^liu_2016]: [Liu & Wang (2016) Liu, Q. and Wang, D. Stein variational gradient descent: A general purpose Bayesian inference algorithm. In Advances In Neural Information Processing Systems, pp. 2378–2386, 2016.](https://dl.acm.org/doi/10.5555/3294996.3295071)
 [^reich_2021]: [S. Reich, S. Weissmann: SIAM/ASA J. Uncertainty Quantification, 9(2), 446–482 (2021)](https://doi.org/10.1137/19M1303162) [arXiv](https://arxiv.org/abs/1911.10832)
 [^lindsey_2021]: [M. Lindsey, J. Weare, and A. Zhang, “Ensemble Markov chain Monte Carlo with teleporting walkers,” arXiv:2106.02686](http://arxiv.org/abs/2106.02686)

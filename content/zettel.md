@@ -9,7 +9,7 @@ draft: false
 - [population dynamics](population_dynamics_21-08-31)
 - [Chaos, ergodicity, and mixing](chaos_ergodicity_mixing_21-09-01)
 - [Itô vs Stratonovich](ito_vs_stratonovich_20-04-17)
-- [Langevin velocity autocorrelation functions](langevin_autocorrelation_21-09-13)
+- [Sampling efficiency / autocorrelation](sampling_efficiency_autocorrelation_21-09-17)
 
 
 # coding
@@ -23,3 +23,7 @@ draft: false
 # Natur / Garten
 - [Mischkultur](untitled_21-03-30)
 - [Garten](garten_21-04-16)
+
+
+
+

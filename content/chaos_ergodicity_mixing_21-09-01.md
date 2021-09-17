@@ -14,6 +14,8 @@ For a more mathematical definition, see e.g. [Birkhoff ergodic theorem](https://
 A **mixing** system is there defined as one where there is a sensitivity to initial conditions, i.e. the late behavior of the system is totally uncorrelated with its early time properties.
 In mathematic terms the system has at least one positiv definite Lyapunov exponent.
 It says that colloquially this is the same as a "chaotic" system.
+I'm not fully sure about their definitions.
+Elsewhere I read that the positive definite Lyapunov exponent comes from the chaotic property: the distance between two trajectories has to strictly increase over time
 
 A mixing system is ergodic and additionally has an approach to equilibrium.
 

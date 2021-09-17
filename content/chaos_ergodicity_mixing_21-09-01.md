@@ -8,9 +8,10 @@ draft: false
 
 In Coveney & Wan (2016) [^coveney_2016] there is some descriptive explanation of some of the terms related to **ergodicity** and **mixing**.
 
-Ergodicity is colloquially defined as: "given infinite time, the system passes through all points of the phase space"
+**Ergodicity** is colloquially defined as: "given infinite time, the system passes through all points of the phase space"
 For a more mathematical definition, see e.g. [Birkhoff ergodic theorem](https://encyclopediaofmath.org/wiki/Birkhoff_ergodic_theorem)
-A mixing system is there defined as one where there is a sensitivity to initial conditions, i.e. the late behavior of the system is totally uncorrelated with its early time properties.
+
+A **mixing** system is there defined as one where there is a sensitivity to initial conditions, i.e. the late behavior of the system is totally uncorrelated with its early time properties.
 In mathematic terms the system has at least one positiv definite Lyapunov exponent.
 It says that colloquially this is the same as a "chaotic" system.
 

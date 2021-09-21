@@ -2,7 +2,7 @@
 title: Politische Förderung von Wagniskapital
 date: 2021-09-20 17:00
 tags: [Philosophie, Gesellschaft, Geschichte, Zukunft, Klima]
-draft: true
+draft: false
 ---
 
 In [diesem Artikel von Franziska Cooiman und Helene Thaa](https://jacobin.de/artikel/wagniskapital-foerdert-keine-innovationen-sondern-erschwert-sie-venture-capital-zukunftsfonds-digitalisierung-modernisierung-cdu-fdp-lindner-spd-die-linke-gruene-technologiefoerderung/) kritisieren die Autorinnen die Förderung von Wagniskapital durch die Parteien als falsch.

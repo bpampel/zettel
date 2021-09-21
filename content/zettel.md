@@ -17,13 +17,10 @@ draft: false
 
 
 # Politik / Gesellschaft / Philosophie
-- [Retrotopie führt zu gesellschaftlichen Konflikten](untitled_21-04-06)
+- [Retrotopie führt zu gesellschaftlichen Konflikten](retrotopie_21-04-06)
+- [Politische Förderung von Wagniskapital](wagniskapital_21-09-20)
 
 
 # Natur / Garten
 - [Mischkultur](untitled_21-03-30)
 - [Garten](garten_21-04-16)
-
-
-
-

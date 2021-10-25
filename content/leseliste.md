@@ -7,6 +7,7 @@ draft: false
 
 ## Leseliste
 
+- Natascha Strobel - [Radikalisierter Konservatismus](https://www.suhrkamp.de/buch/natascha-strobl-radikalisierter-konservatismus-t-9783518127827)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [Feminism is for everybody](https://www.amazon.de/FEMINISM-EVERYBODY-Passionate-bell-hooks/dp/0745317332), [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
 - James Rebanks - [The Shepherds Life](https://www.buecher.de/shop/wirtschaft/the-shepherds-life/rebanks-james/products_products/detail/prod_id/43852434/)
@@ -69,4 +70,3 @@ draft: false
 ### Philo-Theorie
 - Adorno - Minima moralia (gibts ulb)
 - Ernst Bloch - Prinzip Hoffnung
-- Horkheimer / Adorno - Dialektik der Aufklärung [x]

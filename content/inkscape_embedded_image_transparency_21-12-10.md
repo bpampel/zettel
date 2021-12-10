@@ -1,6 +1,7 @@
 ---
 title: inkscape_embedded_image_transparency
 date: 2021-12-10 12:07
+draft: false
 ---
 
 When using inkscape to edit pdf files that have embedded images, the exported pdf sometimes does not render the embedded image anymore.

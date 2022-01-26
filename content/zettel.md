@@ -10,6 +10,7 @@ draft: false
 - [Chaos, ergodicity, and mixing](chaos_ergodicity_mixing_21-09-01)
 - [Itô vs Stratonovich](ito_vs_stratonovich_20-04-17)
 - [Sampling efficiency / autocorrelation](sampling_efficiency_autocorrelation_21-09-17)
+- [Biblatex Customizations](biblatex_customizations_22-01-26)
 
 
 # coding

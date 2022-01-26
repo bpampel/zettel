@@ -1,5 +1,5 @@
 ---
-title: biblatex_customizations
+title: Biblatex Customizations
 date: 2022-01-26 19:55
 draft: false
 tags: ["latex", "biblatex", "bibliography"]
@@ -33,7 +33,7 @@ A simple implementation of the \citenum command is found in [this StackExchange 
 
 The numeric biblatex style for @article entries looks like this (simplified):
 
-  > First1 Last1, First2 Last2, and First3 Last3. “Title of paper.” In: *Jornal title* vol.issue (year)
+  > First1 Last1, First2 Last2, and First3 Last3. “Title of paper.” In: *Journal title* vol.issue (year)
 
 I had some papers that were under preparation at the time of finishing the thesis that I wanted to include nevertheless.
 Using a @article entry without journal information and `date = {under preparation}` does not work out of the box: the prefix `In: ` is added even if no journal title is set.

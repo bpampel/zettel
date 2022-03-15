@@ -1,5 +1,5 @@
 title: "Zettel"
-baseURL: "https://bpampel.github.io/zettel"
+baseURL: "https://bpampel.de/zettel"
 languageCode: "en-us"
 theme: "pulp"
 canonifyURLs: true

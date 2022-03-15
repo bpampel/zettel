@@ -6,7 +6,7 @@ menu: 'main'
 
 This is a loose collection of thoughts, originally inspired by ideas like the [Zettelkasten](https://zettelkasten.de/introduction/).
 
-No guarantee for correctness, just for my personal reference
+No guarantee for correctness, just for my personal reference.
 
 Favicon adaptad from [freepik.com](https://freepik.com), Beario by [Mark Basarab](https://unsplash.com/@ignitedit).
 

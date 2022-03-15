@@ -1,6 +1,5 @@
 ---
 title: "Zettel"
-date: 2019-11-24T21:06:22+02:00
 draft: false
 menu: 'main'
 ---

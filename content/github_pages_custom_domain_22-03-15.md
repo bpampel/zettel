@@ -13,19 +13,19 @@ So the goal is to serve the website under `bpampel.github.io` but let it also be
 
 To get the redirect working, you need to do two steps:
 
-  1) set the correct A records for your domain
+  1) set the correct *A* records for your domain
   2) tell github the domain it should serve the content for
 
 Generally, changes to DNS records might take a while to have effect, so be patient.
 
 ## Setting A records
 
-To set the a records, you need to access the DNS settings of your domain (often a web interface).
+To set the *A* records, you need to access the DNS settings of your domain (often a web interface).
 Then, you need to add the four A records given [on this website](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 In my case, I had no A records set previously. It might be a bit more complicated if you want to redirect only some subdomain.
 
-I also set a CNAME record for `www.bpampel.de` to `bpampel.github.io`.
+I also set a *CNAME* record for `www.bpampel.de` to `bpampel.github.io`.
 
 ## Set github settings
 

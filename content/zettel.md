@@ -16,10 +16,11 @@ menu: 'main'
 - [Multiwavelets](multiwavelets_20-07-10)
 
 
-# Coding
+# Tech
 - [Git search repository](git_search_repository_21-07-14)
 - [Inkscape: Fix transparency for embedded images](inkscape_embedded_image_transparency_21-12-10)
 - [Biblatex Customizations](biblatex_customizations_22-01-26)
+- [Github pages with custom domain](github_pages_custom_domain_22-03-15)
 
 
 # Politik / Gesellschaft / Philosophie

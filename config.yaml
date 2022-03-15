@@ -11,7 +11,7 @@ params:
   publicationYear: 2022
   avatar: "baerli.jpg"
   avatarDescription: "cake eater"
-  favicon: "cake.ico"
+  favicon: "note_box.ico"
 
 outputs:
   section: ["JSON", "HTML"]

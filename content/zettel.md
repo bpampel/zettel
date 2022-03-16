@@ -1,5 +1,5 @@
 ---
-title: "Zettel"
+title: "Selected Zettel"
 draft: false
 menu: 'main'
 ---

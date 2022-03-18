@@ -36,3 +36,4 @@ menu: 'main'
 # Anderes
 - [Leseliste](leseliste)
 - [Lose Sammlung von Zitaten / Aphorismen](zitate)
+- [Pandi](pandi)

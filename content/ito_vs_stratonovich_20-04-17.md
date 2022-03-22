@@ -12,7 +12,7 @@ For a stochastic integral of the form
 
   $$I(t) = \int_0^t f(s) dW(s)$$
 
-where we are interested in integrating some process $f(t)$ up to some intermediate time $t \in [0, T]$ that depends only on the past of the Brownian motion $W(t)$.
+we are interested in integrating some process $f(t)$ up to some intermediate time $t \in [0, T]$ that depends only on the past of the Brownian motion $W(t)$.
 
 We do a Riemann sum approximation of the integral:
 

@@ -7,7 +7,7 @@ tags: ["Wavelets", "interpolating polynomial"]
 
 Scaling function and wavelet functions are now vectors -> Coefficients become matrix (2d) instead of list
 
-Paper [[https://doi.org/10.1006/jcph.2002.7160|Adaptive Solution of Partial Differential Equations in Multiwavelet Bases]] (Alpert, Beylkin, et al):
+Paper "Adaptive Solution of Partial Differential Equations in Multiwavelet Bases"[^alpert_adaptive_2002]:
   - Constructed on bounded interval (here [0,1])
   - Proposes an interpolating basis (-> Coefficients are values) with *Lagrange interpolating polynomials*
   - Results in basis functions $R_j(x) = \frac{1}{\sqrt{w_j} l_j(x)$ with $l_j$ being the Lagrange polynomials
@@ -17,3 +17,6 @@ Paper [[https://doi.org/10.1006/jcph.2002.7160|Adaptive Solution of Partial Diff
   - Explicit section about (first) derivative -> is not unique for discontinuous functions?
 
 Interesting family suggested by Markus Bachmayr: Multiwavelets developed by Donovan, Geronimo, Hardin
+
+
+[^alpert_adaptive_2002]: [B. Alpert, et al., J. Comp. Phys., 182(1), 2002](https://doi.org/10.1006/jcph.2002.7160)

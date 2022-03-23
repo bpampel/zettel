@@ -2,7 +2,7 @@
 title: website
 date: 2022-03-21 13:00
 draft: false
-tags: ["website", "hugo", "github", "github-actions", "dns"]
+tags: ["website", "hugo", "github", "github-actions", "mathjax"]
 ---
 
 This is an explanation of how this website is built for future reference.
@@ -164,6 +164,9 @@ Most search implementations I found rely on `lunr.js` (also the one from the pul
 Personally I used [esbuild](https://esbuild.github.io/) to host a minified copy locally.
 The further implementation into the site will have to wait.
 
+### Using your own domain
+
+See the [separate post](github_pages_custom_domain_22-03-15) on how to use DNS forwarding from your own domain to the deployed website on github pages
 
 ### Conclusions
 

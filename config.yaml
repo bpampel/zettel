@@ -12,6 +12,13 @@ params:
   avatar: "baerli.jpg"
   avatarDescription: "cake eater"
   favicon: "note_box.ico"
+  css: ["css/custom.css"]
+  math: true
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: true
 
 outputs:
   section: ["JSON", "HTML"]

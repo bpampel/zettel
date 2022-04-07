@@ -33,6 +33,7 @@ draft: false
 - (Paul Mason - [PostCapitalism](https://www.amazon.de/PostCapitalism-Guide-Future-Paul-Mason/dp/0141975296) / [Postkapitalismus](https://www.suhrkamp.de/buch/paul-mason-postkapitalismus-t-9783518425398))
 - (Niko Paech - [Postwachstumsökonomie](https://www.oekom.de/buch/befreiung-vom-ueberfluss-9783865811813))
 - (David Graeber - Debt)
+- Theodore M. Porter - Trust in Numbers
 - Christoph Nonn - [12 Jahre](https://www.chbeck.de/nonn-12-tage-halbes-jahrhundert/product/30934879)
 - [Farbe bekennen](https://orlanda.de/book/may-ayim-katharina-oguntoye-dagmar-schultz-hg-farbe-bekennen-afro-deutsche-frauen-auf-den-spuren-ihrer-geschichte)
 - Guy Shrubsole - [Who owns England](https://www.osiander.de/shop/home/artikeldetails/ID144255308.html)

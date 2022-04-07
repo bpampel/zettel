@@ -16,6 +16,21 @@ draft: false
 > Jedes Gesetz, das die menschliche Persönlichkeit erniedrigt, ist ungerecht.  
 > --- *Martin Luther King: "Die Zeit für schöpferischen Protest ist gekommen", dort Thomas von Aquin zugeschrieben. Entnommen aus "[Ziviler Ungehorsam](https://www.reclam.shop/detail/978-3-15-019446-1/Ziviler_Ungehorsam)" (p. 86)*
 
+> sie haben deinen traum konserviert  
+> konserviert und verkauft, Bruder  
+> postkarten und poster  
+> dreizeiler in einem Geschichtsbuch  
+> "I Have A Dream"  
+> ein abgeschlossener Roman  
+>  
+> sie haben  
+> vergangenheit daraus gemacht  
+> weiß wie tränensalz  
+> und da wo ich lebe  
+> würden sie es "bewältigt" nennen, Bruder  
+>  
+> --- *May Ayim: "die zeit danach", aus "blues in schwarz weiss"*
+
 > Biografien von NS-Täter\*innen bieten die scheinbare Möglichkeit die eigene Bösartigkeit durch die Psyche der Täter\*innen zu betrachten. Dabei wird Täter\*innendenken dargestellt. Die gesellschaftliche Vorstellung ist, dass man die Täter\*innen verstehen wollen sollte. Ein Schlag in das Gesicht der Opfer.  
 > --- *Elsa Fernández: [Fragmente über das Überleben](https://www.unrast-verlag.de/neuerscheinungen/fragmente-ueber-das-ueberleben-detail) (p. 95f)*
 

@@ -7,10 +7,8 @@ draft: false
 
 ## Leseliste
 
-- Jeanne Diesteldorf [(K)eine Mutter](https://www.kiwi-verlag.de/buch/jeanne-diesteldorf-k-eine-mutter-9783462002102)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [Feminism is for everybody](https://www.amazon.de/FEMINISM-EVERYBODY-Passionate-bell-hooks/dp/0745317332), [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
-- James Rebanks - [The Shepherds Life](https://www.buecher.de/shop/wirtschaft/the-shepherds-life/rebanks-james/products_products/detail/prod_id/43852434/)
 - Aiko Kempen - [Auf dem rechten Weg](https://europa-verlag.com/Buecher/6565/AufdemrechtenWeg.html)
 - Aischa Ahmed - [Arabische Präsenzen in Deutschland um 1900](https://www.transcript-verlag.de/978-3-8376-5411-0/arabische-praesenzen-in-deutschland-um-1900/)
 - Matthias Heine - [Verbrannte Wörter](https://shop.duden.de/products/verbrannte-worter)
@@ -37,6 +35,7 @@ draft: false
 - Christoph Nonn - [12 Jahre](https://www.chbeck.de/nonn-12-tage-halbes-jahrhundert/product/30934879)
 - [Farbe bekennen](https://orlanda.de/book/may-ayim-katharina-oguntoye-dagmar-schultz-hg-farbe-bekennen-afro-deutsche-frauen-auf-den-spuren-ihrer-geschichte)
 - Guy Shrubsole - [Who owns England](https://www.osiander.de/shop/home/artikeldetails/ID144255308.html)
+- Anand Giridharadas - [Winners Take All: The Elite Charade of Changing the World](https://www.genialokal.de/Produkt/Anand-Giridharadas/Winners-Take-All_lid_38765962.html)
 
 ### "Klassiker"
 - James Joyce - Ulysees

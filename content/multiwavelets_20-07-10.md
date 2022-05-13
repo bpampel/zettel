@@ -10,7 +10,7 @@ Scaling function and wavelet functions are now vectors -> Coefficients become ma
 Paper "Adaptive Solution of Partial Differential Equations in Multiwavelet Bases"[^alpert_adaptive_2002]:
   - Constructed on bounded interval (here [0,1])
   - Proposes an interpolating basis (-> Coefficients are values) with *Lagrange interpolating polynomials*
-  - Results in basis functions $R_j(x) = \frac{1}{\sqrt{w_j} l_j(x)$ with $l_j$ being the Lagrange polynomials
+  - Results in basis functions $R_j(x) = \frac{1}{\sqrt{w_j}} l_j(x)$ with $l_j$ being the Lagrange polynomials
   - Opposite way: Scaling and wavelet functions are known, need to construct the coefficients _(not in our case?)_
   - -> Explicit expression for scaling function! (although a bit complicated)
   - Not sure about the exact properties, seem to be few coefficients on coarsest level

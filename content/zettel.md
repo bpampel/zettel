@@ -18,6 +18,7 @@ menu: 'main'
 # Tech
 - [Building the website](website)
 - [Git search repository](git_search_repository_21-07-14)
+- [Running difference in gnuplot](gnuplot_running_difference_21-04-12)
 - [Inkscape: Fix transparency for embedded images](inkscape_embedded_image_transparency_21-12-10)
 - [Biblatex Customizations](biblatex_customizations_22-01-26)
 - [Latex beamer with enumitem](latex_beamer_with_enumitem)

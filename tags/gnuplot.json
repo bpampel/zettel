@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/gnuplot_running_difference_21-04-12.html",
+        "title": "Running difference in gnuplot",
+        "section": "",
+        "tags": ["awk","gnuplot","difference","columns"],
+        "date" : "0001.01.01",
+        "body": "Problem I wanted to plot some statistics with gnuplot. The program puts out the total statistics over time, not just the new ones since the last write. So to get the statistics for in between the writes I needed to calculate the differences between the current value and the previous one on the fly.\nThere is an example for plotting running averages with gnuplot in their demos which I thought I could easily adapt.\nSadly this doesn\u0026rsquo;t work for plotting multiple running differences as this reuses the old variables and I found no way to reinitialize within a plot for [x in y] loop.\nSolution Instead I opted to let awk do the calculations and plot the results on the fly.\nThe following command does what I want (choosing the 2nd column, ignoring lines starting with \u0026lsquo;#\u0026rsquo;):\nawk \u0026#39;/^[^#]/ {print $2-a}{a=$2}\u0026#39; filename So I put these into two gnuplot function (for a single and two columns, because I also want to calculate ratios):\nrunning_diff(filename, col) = sprintf(\u0026#34;\u0026lt; awk \u0026#39;/^[^#]/ {print $1,$%d-a}{a=$%d}\u0026#39; %s\u0026#34;, col, col, filename) running_diff_2col(filename, col1, col2) = sprintf(\u0026#34;\u0026lt; awk \u0026#39;/^[^#]/ {print $1,$%d-a,$%d-b}{a=$%d;b=$%b}\u0026#39; %s\u0026#34;, col1, col2, col1, col2, filename) "
+    }
+]

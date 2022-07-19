@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/wavelets.html",
+        "title": "Wavelets",
+        "section": "",
+        "tags": ["wavelets","basisfunction","basis"],
+        "date" : "0001.01.01",
+        "body": "Mixed thoughts on Wavelets Daubechies wavelets: Family of orthogonal wavelets with smallest support for a given \u0026ldquo;number of vanishing moments\u0026rdquo; \u0026ndash;\u0026gt; good representation properties for piecewise polynomials Symlets are the \u0026ldquo;least asymmetric\u0026rdquo; variant: Slightly less regular but the filter with a near-linear phase results in more symmetric wavelets Quick lookup of some math terms: Spaces / Bases Riesz basis: generalization of orthonormal bases (all orthonormal bases are Riesz bases) $l^p$ space: space of all sequences satisfying $\\sum_n \\vert x_n \\vert_p \u0026lt; \\infty$\n-\u0026gt; Sum of norms is finite.\nexample: $l^2$ is all square summable sequences $L^p$ space: same with functions, e.g. $L^2$ is space of all square integrateable functions (= finite energy), called \u0026ldquo;Lebesgue space\u0026rdquo; Sobolev space $W^k_p$: Subset of functions $f \\in L^p$ whose weak derivatives up to order $k$ have finite $L^p$ norm\nImportant special case: $p=2$: Forms Hilbert space, short notation often $W^k_2 = H^k$ Schauder basis: countable basis (can have infinite sum to represent element instead of finite in ordinary Hamel basis) Misc Monoic polynomial: polynomial with leading coefficient (highest order) equal to 1 Hyperbolic wavelet basis: linear approximation via \u0026ldquo;sparse grid-type bases\u0026rdquo; Smoothness: $C^n$ means function has $n$ continous derivatives Parseval\u0026rsquo;s theorem: analogue of Pythagoras\u0026rsquo; theorem for functions and proofs completeness (see notebook) Splines $C^n$ is continuity: $C^1$: continuity of the tangent vector: \u0026ldquo;continuous derivative\u0026rdquo; $C^2$: continuity of the slope Knots: how many points \u0026ldquo;coalesce\u0026rdquo; simple knot: knot with $C^n-1$ continuity double knot: knot with $C^n-2$ continuity "
+    }
+]

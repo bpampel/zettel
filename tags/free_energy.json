@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/free_energy_definitions_200928.html",
+        "title": "Definitions of free energy",
+        "section": "",
+        "tags": ["fes","free_energy"],
+        "date" : "0001.01.01",
+        "body": "In the literature, two different definitions of the free energy are common:\nthermodynamic / probabilistic free energy geometric free energy The question is how to interprete the delta function in the following definition [1]\nF(s) = - \\beta^{-1} \\ln \\int_{R^n} \\exp(-\\beta V(x)) \\delta(s) What are their differences/similarities?\nFootnotes https://doi.org/10.1140/epjst/e2011-01519-7\u0026#160;\u0026#x21a9;\u0026#xfe0e;\n"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/latex_beamer_with_enumitem.html",
+        "title": "Latex beamer with enumitem",
+        "section": "",
+        "tags": ["tex","beamer","presentation","latex","enumerate"],
+        "date" : "0001.01.01",
+        "body": "It is not recommended to use the enumitem package with a beamer document class in TeX. When trying without any further ado (just \\usepackage{enumitem}) in a beamer document it will result in an error: ! TeX capacity exceeded, sorry [grouping levels=255].\nThe reason is that enumitem assums that the document class defines the \\labelenumi command, but beamer doesn\u0026rsquo;t! Manually defining it is not recommended: the beamer class (re-)defines the commands and environments, loading enumitem would then result in these being overwritten. This stackoverflow answer provides a fix, but the generel consensus is to better not use enumitem if one doesn\u0026rsquo;t strictly need it.\n"
+    }
+]

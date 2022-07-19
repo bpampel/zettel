@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/multiwavelets_20-07-10.html",
+        "title": "Multiwavelets",
+        "section": "",
+        "tags": ["Wavelets","interpolating polynomial"],
+        "date" : "0001.01.01",
+        "body": "Scaling function and wavelet functions are now vectors -\u0026gt; Coefficients become matrix (2d) instead of list\nPaper \u0026ldquo;Adaptive Solution of Partial Differential Equations in Multiwavelet Bases\u0026rdquo;1:\nConstructed on bounded interval (here [0,1]) Proposes an interpolating basis (-\u0026gt; Coefficients are values) with Lagrange interpolating polynomials Results in basis functions $R_j(x) = \\frac{1}{\\sqrt{w_j}} l_j(x)$ with $l_j$ being the Lagrange polynomials Opposite way: Scaling and wavelet functions are known, need to construct the coefficients (not in our case?) -\u0026gt; Explicit expression for scaling function! (although a bit complicated) Not sure about the exact properties, seem to be few coefficients on coarsest level Explicit section about (first) derivative -\u0026gt; is not unique for discontinuous functions? Interesting family suggested by Markus Bachmayr: Multiwavelets developed by Donovan, Geronimo, Hardin\nB. Alpert, et al., J. Comp. Phys., 182(1), 2002\u0026#160;\u0026#x21a9;\u0026#xfe0e;\n"
+    }
+]

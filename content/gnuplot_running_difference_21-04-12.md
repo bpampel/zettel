@@ -2,7 +2,7 @@
 title: Running difference in gnuplot
 date: 2021-04-12 12:54
 draft: false
-tags: ["awk" "gnuplot" "difference" "columns"]
+tags: ["awk", "gnuplot", "difference", "columns"]
 ---
 
 ## Problem

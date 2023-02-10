@@ -36,6 +36,8 @@ draft: false
 - [Farbe bekennen](https://orlanda.de/book/may-ayim-katharina-oguntoye-dagmar-schultz-hg-farbe-bekennen-afro-deutsche-frauen-auf-den-spuren-ihrer-geschichte)
 - Guy Shrubsole - [Who owns England](https://www.osiander.de/shop/home/artikeldetails/ID144255308.html)
 - Anand Giridharadas - [Winners Take All: The Elite Charade of Changing the World](https://www.genialokal.de/Produkt/Anand-Giridharadas/Winners-Take-All_lid_38765962.html)
+- David Bond - [Negative Ecologies](https://www.ucpress.edu/book/9780520386785/negative-ecologies)
+- Jasmin Schreiber - [Biodiversität](https://www.reclam.de/detail/978-3-15-020673-7/Schreiber__Jasmin/Biodiversitaet__100_Seiten)
 
 ### "Klassiker"
 - James Joyce - Ulysees

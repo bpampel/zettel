@@ -5,6 +5,7 @@ theme: "pulp"
 canonifyURLs: true
 uglyurls: true
 sectionPagesMenu: "main"
+enableRobotsTXT: true
 
 params:
   Author: "Benjamin Pampel"
@@ -23,3 +24,4 @@ markup:
 outputs:
   section: ["JSON", "HTML"]
   term: ["JSON", "HTML"]
+

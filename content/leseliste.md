@@ -7,6 +7,8 @@ draft: false
 
 ## Leseliste
 
+- Natascha Strobl - [Solidarität](https://www.kremayr-scheriau.at/bucher-e-books/titel/solidaritaet/)
+- Matthias Quandt et al - [Klimarassismus](https://www.piper.de/buecher/klimarassismus-isbn-978-3-492-06399-9)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [Feminism is for everybody](https://www.amazon.de/FEMINISM-EVERYBODY-Passionate-bell-hooks/dp/0745317332), [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
 - Aiko Kempen - [Auf dem rechten Weg](https://europa-verlag.com/Buecher/6565/AufdemrechtenWeg.html)

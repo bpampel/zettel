@@ -9,7 +9,7 @@ enableRobotsTXT: true
 
 params:
   Author: "Benjamin Pampel"
-  publicationYear: 2022
+  publicationYear: 2024
   avatar: "baerli.jpg"
   avatarDescription: "cake eater"
   favicon: "note_box.ico"

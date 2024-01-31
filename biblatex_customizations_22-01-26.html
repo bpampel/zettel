@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Biblatex Customizations - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Pampel" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>Biblatex Customizations</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel/img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel"><img class="avatar-border" src="https://bpampel.de/zettel/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel">Zettel</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/latex.html">latex</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/biblatex.html">biblatex</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/bibliography.html">bibliography</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h2 id="biblatex-citenum-command-papers-under-preparation-and-no-isbnissn-if-doi-present">Biblatex: citenum command, papers under preparation, and no ISBN/ISSN if DOI present</h2>
+<p>For my PhD thesis I used biblatex with the biber backend to generate the citations and bibliography automatically in the &ldquo;numeric&rdquo; style.</p>
+<p>I encountered three small problems:</p>
+<ol>
+<li>The \citenum command from natbib (to have in-text citations like <code>In Ref. 3</code>) does not exist in biblatex</li>
+<li>The bibliography style for @article prefixes the journal title with &ldquo;In: &ldquo;, but I have some papers under preparation that do not have a journal title set.</li>
+<li>Because I generated most of the bib entries automatically with zotero, often both ISBN/ISSN and DOI are set. I don&rsquo;t want to lengthen the bibliography entries by including both, but by default you can only remove the identifiers unconditionally.</li>
+</ol>
+<h3 id="adding-a-citenum-command">adding a citenum command</h3>
+<p>A simple implementation of the \citenum command is found in <a href="https://tex.stackexchange.com/a/249123">this StackExchange answer</a>:</p>
+<pre><code>\DeclareCiteCommand{\citenum}%
+  {\usebibmacro{cite:init}%
+   \usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \usebibmacro{cite:comp}}
+  {}
+  {\usebibmacro{cite:dump}%
+   \usebibmacro{postnote}}
+</code></pre>
+<h3 id="removing-the-in--prefix-for-papers-under-preparation">Removing the &ldquo;In :&rdquo; prefix for papers under preparation</h3>
+<p>The numeric biblatex style for @article entries looks like this (simplified):</p>
+<blockquote>
+<p>First1 Last1, First2 Last2, and First3 Last3. “Title of paper.” In: <em>Journal title</em> vol.issue (year)</p>
+</blockquote>
+<p>I had some papers that were under preparation at the time of finishing the thesis that I wanted to include nevertheless.
+Using a @article entry without journal information and <code>date = {under preparation}</code> does not work out of the box: the prefix <code>In: </code> is added even if no journal title is set.</p>
+<p>To remove it, the <code>in:</code> command is modified:</p>
+<pre><code>\renewbibmacro*{in:}{
+  \iffieldundef{journaltitle}
+    {}
+    {\bibstring{in}\printunit{\intitlepunct}}
+}
+</code></pre>
+<h3 id="show-isbnissn-only-if-doi-is-not-set">Show ISBN/ISSN only if DOI is not set</h3>
+<pre><code>\AtEveryBibitem{
+  \iffieldundef{doi}
+    {}
+    {\clearfield{issn}%
+     \clearfield{isbn}}%
+}
+</code></pre>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2024 Benjamin Pampel.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zettel</title>
+    <link>https://bpampel.de/zettel/</link>
+    <description>Recent content on Zettel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://bpampel.de/zettel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leseliste</title>
+      <link>https://bpampel.de/zettel/leseliste.html</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/leseliste.html</guid>
+      <description>Leseliste Natascha Strobl - Solidarität Matthias Quandt et al - Klimarassismus Ngũgĩ wa Thiong´o - Devil on the cross bell hooks - Feminism is for everybody, die Bedeutung von Klasse Aiko Kempen - Auf dem rechten Weg Aischa Ahmed - Arabische Präsenzen in Deutschland um 1900 Matthias Heine - Verbrannte Wörter Angela Saini - Superior Kübra Gümüsay - Sprache und sein Tupoka Ogette - Exit racism Waubgeshig Rice - Moon of the crusted snow Jane Jacobs - The Death and Life of Great American Cities Margaret W.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://bpampel.de/zettel/about.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/about.html</guid>
+      <description>This is a loose collection of thoughts, originally inspired by ideas like the Zettelkasten.&#xA;No guarantee for correctness, just for my personal reference.&#xA;Bear picture by Mark Basarab.&#xA;Contact Benjamin Pampel&#xA;E-Mail </description>
+    </item>
+    <item>
+      <title>Biblatex Customizations</title>
+      <link>https://bpampel.de/zettel/biblatex_customizations_22-01-26.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/biblatex_customizations_22-01-26.html</guid>
+      <description>Biblatex: citenum command, papers under preparation, and no ISBN/ISSN if DOI present For my PhD thesis I used biblatex with the biber backend to generate the citations and bibliography automatically in the &amp;ldquo;numeric&amp;rdquo; style.&#xA;I encountered three small problems:&#xA;The \citenum command from natbib (to have in-text citations like In Ref. 3) does not exist in biblatex The bibliography style for @article prefixes the journal title with &amp;ldquo;In: &amp;ldquo;, but I have some papers under preparation that do not have a journal title set.</description>
+    </item>
+    <item>
+      <title>Chaos, ergodicity, and mixing</title>
+      <link>https://bpampel.de/zettel/chaos_ergodicity_mixing_21-09-01.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/chaos_ergodicity_mixing_21-09-01.html</guid>
+      <description>Ergodicity and mixing In Coveney &amp;amp; Wan (2016) 1 there is some descriptive explanation of some of the terms related to ergodicity and mixing.&#xA;Ergodicity is colloquially defined as: &amp;ldquo;given infinite time, the system passes through all points of the phase space&amp;rdquo; For a more mathematical definition, see e.g. Birkhoff ergodic theorem&#xA;A mixing system is there defined as one where there is a sensitivity to initial conditions, i.e. the late behavior of the system is totally uncorrelated with its early time properties.</description>
+    </item>
+    <item>
+      <title>Conventional commit messages</title>
+      <link>https://bpampel.de/zettel/conventional_commit_messages_24_01_31.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/conventional_commit_messages_24_01_31.html</guid>
+      <description>I recently tried out using conventional commit messages for git.&#xA;The basic structure of a commit message should be&#xA;&amp;lt;type&amp;gt;[optional scope]: &amp;lt;description&amp;gt; [optional body] [optional footer(s)] For the type only feat and fix are hard definitions. Other types with definitions include&#xA;feat – a new feature is introduced with the changes fix – a bug fix has occurred chore – changes that do not relate to a fix or feature and don&amp;rsquo;t modify src or test files (for example updating dependencies) refactor – refactored code that neither fixes a bug nor adds a feature docs – updates to documentation such as a the README or other markdown files style – changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons, and so on.</description>
+    </item>
+    <item>
+      <title>Definitions of free energy</title>
+      <link>https://bpampel.de/zettel/free_energy_definitions_200928.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/free_energy_definitions_200928.html</guid>
+      <description>In the literature, two different definitions of the free energy are common:&#xA;thermodynamic / probabilistic free energy geometric free energy The question is how to interprete the delta function in the following definition [1]&#xA;F(s) = - \beta^{-1} \ln \int_{R^n} \exp(-\beta V(x)) \delta(s) What are their differences/similarities?&#xA;Footnotes https://doi.org/10.1140/epjst/e2011-01519-7&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    <item>
+      <title>geohashing</title>
+      <link>https://bpampel.de/zettel/geohashing_22-04-07.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/geohashing_22-04-07.html</guid>
+      <description>Idea: tool that presents the air-line distance, walking time, biking time (etc) to todays hash.&#xA;Use the geohashing.py to get the coordinates of the hash&#xA;Air-line distance Distance between two coordinates: Lambert&amp;rsquo;s formula&#xA;See e.g. this website&#xA;See also this tool that calculates the distance between the hash and user-specified coordinates&#xA;walking / biking Use e.g. brouter to calculate the time. Problem: there is no API?</description>
+    </item>
+    <item>
+      <title>Git search repository</title>
+      <link>https://bpampel.de/zettel/git_search_repository_21-07-14.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/git_search_repository_21-07-14.html</guid>
+      <description>Remember implementing some feature but can&amp;rsquo;t find it? Was it changed later? Is it in some unmerged branch?&#xA;For small (!) repositories you can grep through all commits:&#xA;git rev-list --all | xargs git grep &amp;quot;my search&amp;quot;</description>
+    </item>
+    <item>
+      <title>Hüll</title>
+      <link>https://bpampel.de/zettel/h%C3%BCll_22-10-10.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/h%C3%BCll_22-10-10.html</guid>
+      <description>Etymologie: Woher kommt der Orstnamensbestandteil &amp;ldquo;Hüll&amp;rdquo; (z.B. Gräfenberger-, Egloffsteiner-)?&#xA;Von den &amp;ldquo;Hüllen&amp;rdquo; bzw. Hüllweihern: Weiher die auf den Hochebenen zur Speicherung des knappen Wassers angelegt wurden, da die nächsten Gewässer im karstigen Gelände oft weit entfernt waren! Die Weiher sind teilweise inzwischen verschwunden, aber die Ortsnamen bleiben.</description>
+    </item>
+    <item>
+      <title>inkscape_embedded_image_transparency</title>
+      <link>https://bpampel.de/zettel/inkscape_embedded_image_transparency_21-12-10.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/inkscape_embedded_image_transparency_21-12-10.html</guid>
+      <description>When using inkscape to edit pdf files that have embedded images, the exported pdf sometimes does not render the embedded image anymore.&#xA;Personally, I encountered this when plotting 2D plots with gnuplot via pdfcairo. Importing them into an inkscape drawing worked fine, but when exporting to pdf again, the 2D images were simply not shown.&#xA;Saving to inkscape svg and then converting via rsvg-convert solves the issue!&#xA;rsvg-convert -f pdf input.</description>
+    </item>
+    <item>
+      <title>Itô vs Stratonovich</title>
+      <link>https://bpampel.de/zettel/ito_vs_stratonovich_20-04-17.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/ito_vs_stratonovich_20-04-17.html</guid>
+      <description>Itô and Stratonovich interpretation of stochastic integrals This follows mostly chapter 3.2 of Pavlotis.&#xA;For a stochastic integral of the form&#xA;$$I(t) = \int_0^t f(s) dW(s)$$&#xA;we are interested in integrating some process $f(t)$ up to some intermediate time $t \in [0, T]$ that depends only on the past of the Brownian motion $W(t)$.&#xA;We do a Riemann sum approximation of the integral:&#xA;The time is partitioned into small intervals of size $\delta t$, i.</description>
+    </item>
+    <item>
+      <title>jagd</title>
+      <link>https://bpampel.de/zettel/jagd_21-10-25.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/jagd_21-10-25.html</guid>
+      <description>Lose Gedanken / Argumente zur Jagd:&#xA;Schalenwild Verbiss des Wildes wird oft als Hauptproblem für Forstwirtschaft dargestellt: Junge Triebe werden verzehrt, Bäume durch z.B. Rotwild geschält. -&amp;gt; Langsameres Wachstum, eindringende Pilze schmälern Wert des Holzes Aber: viele Wildtiere äsen eigentlich vorzugsweise am Waldrand auf Wiesen/Äckern erst durch vom Mensch verusachten Stress (Jagd, aber auch Tourismus, Holzwirtschaft etc) zieht sich das Wild tiefer in den Wald zurück dort findet es keine andere Nahrung als junge Triebe / Rinde die Jagd, die eigentlich für weniger Verbissschäden sorgen soll, ist hier also auch mit Ursache des Problems!</description>
+    </item>
+    <item>
+      <title>Latex beamer with enumitem</title>
+      <link>https://bpampel.de/zettel/latex_beamer_with_enumitem.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/latex_beamer_with_enumitem.html</guid>
+      <description>It is not recommended to use the enumitem package with a beamer document class in TeX. When trying without any further ado (just \usepackage{enumitem}) in a beamer document it will result in an error: ! TeX capacity exceeded, sorry [grouping levels=255].&#xA;The reason is that enumitem assums that the document class defines the \labelenumi command, but beamer doesn&amp;rsquo;t! Manually defining it is not recommended: the beamer class (re-)defines the commands and environments, loading enumitem would then result in these being overwritten.</description>
+    </item>
+    <item>
+      <title>Mischkultur</title>
+      <link>https://bpampel.de/zettel/mischkultur_21-03-30.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/mischkultur_21-03-30.html</guid>
+      <description>4 Beete: Wechsel zwischen&#xA;Starkzehrern: Kartoffeln, alle Kohlarten, Sellerie, Gurken, Kürbis und Auberginen, Rote Beete Mittelzehrern: Beerenobstsorten, Bohnengemüse, Erbse, Fenchel, Kohlrabi, Kürbisse, Mangold, Melone, Paprika, Porree-Lauch, Radieschen, Rettich, Sellerie, Schwarzwurzel, Tomate, Zucchini, Zwiebelgewächse Schwachzehrern: Karotten, Erbsen, Kapuzinerkresse, Pastinake, Buschbohnen sowie die meisten Kräuter Gründüngung Zudem: wechselnde positionen&#xA;Gute Partner, Beetideen Frühjahr:&#xA;Möhren + Zwiebeln, Radieschen, Rettich, Mangold, Schnittlauch Salat Radieschen + Kohlrabi, Spinat Kohlrabi und Kräuter (Dill, Borretsch, Kerbel) dazwischen Tomate + Sellerie, Petersilie, Basilikum Kartoffeln + Kapuzinerkresse?</description>
+    </item>
+    <item>
+      <title>Multiwavelets</title>
+      <link>https://bpampel.de/zettel/multiwavelets_20-07-10.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/multiwavelets_20-07-10.html</guid>
+      <description>Scaling function and wavelet functions are now vectors -&amp;gt; Coefficients become matrix (2d) instead of list&#xA;Paper &amp;ldquo;Adaptive Solution of Partial Differential Equations in Multiwavelet Bases&amp;rdquo;1:&#xA;Constructed on bounded interval (here [0,1]) Proposes an interpolating basis (-&amp;gt; Coefficients are values) with Lagrange interpolating polynomials Results in basis functions $R_j(x) = \frac{1}{\sqrt{w_j}} l_j(x)$ with $l_j$ being the Lagrange polynomials Opposite way: Scaling and wavelet functions are known, need to construct the coefficients (not in our case?</description>
+    </item>
+    <item>
+      <title>Pandi</title>
+      <link>https://bpampel.de/zettel/pandi.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/pandi.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politische Förderung von Wagniskapital</title>
+      <link>https://bpampel.de/zettel/wagniskapital_21-09-20.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/wagniskapital_21-09-20.html</guid>
+      <description>In diesem Artikel von Franziska Cooiman und Helene Thaa kritisieren die Autorinnen die Förderung von Wagniskapital durch die Parteien als falsch.&#xA;Wagniskapital bezeichnet das Einbringen von Geld in kleine, risikoreiche Unternehmen. Im Gegenzug erhält der Kapitalgeber Anteile am Unternehmen. Kleine Unternehmen bekommen Geld sonst oft nur schwer, oder unter sehr hohen Zinsen.&#xA;Es hat das Image Ideen von kleinen Unternehmen zu fördern und dadurch Innovationen anzutreiben. Das entlarven die Autorinnen aber als nur halbwahr:</description>
+    </item>
+    <item>
+      <title>population dynamics</title>
+      <link>https://bpampel.de/zettel/population_dynamics_21-08-31.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/population_dynamics_21-08-31.html</guid>
+      <description>Some terms/definitions PhD Thesis by Hidalgo:1&#xA;Algorithms that do population control in a rare event setting are also referred to as cloning algorithms. Two variants: non-constant and constant total population: In his opinion the first is advantageous: uniform pruning/cloning induces correlations into the dynamics when populations are very fluctuating, finite-population effects cause problems (risk of population being wiped out by single clone) selection of alternative terms for the &amp;ldquo;birth/death&amp;rdquo; events:</description>
+    </item>
+    <item>
+      <title>Redirect a custom domain to github pages</title>
+      <link>https://bpampel.de/zettel/github_pages_custom_domain_22-03-15.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/github_pages_custom_domain_22-03-15.html</guid>
+      <description>How to redirect a custom domain to github pages Because I do not have a dedicated webspace to host my website, but do have a custom domain, I decided to simply redirect it to github pages. That also has the benefit of using automatic deployment via github actions. So the goal is to serve the website under bpampel.github.io but let it also be accessible via bpampel.de.&#xA;To get the redirect working, you need to do two steps:</description>
+    </item>
+    <item>
+      <title>Retrotopie führt zu gesellschaftlichen Konflikten</title>
+      <link>https://bpampel.de/zettel/retrotopie_21-04-06.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/retrotopie_21-04-06.html</guid>
+      <description>Wenn es keine gemeinsame Vision der Zukunft gibt (z.B. angesichts der kommenden Klimakatastrophe), sorgen die rückwärts gewandten Visionen für Konflikte zwischen den Generationen.&#xA;Aus einem Interview mit Philipp Blom in der HDP:&#xA;hpd: Der Soziologe Zygmunt Baumann sprach in diesem Zusammenhang einmal von &amp;ldquo;Retrotopie&amp;rdquo;. Die Idee des Fortschritts verheiße heute weniger die Aussicht auf eine Verbesserung der persönlichen Lage als die Angst davor, abgehängt und zurückgelassen zu werden. Daher würden sich viele von der Zukunft abwenden und sich nach der Rückkehr einer verklärten Vergangenheit sehnen.</description>
+    </item>
+    <item>
+      <title>Running difference in gnuplot</title>
+      <link>https://bpampel.de/zettel/gnuplot_running_difference_21-04-12.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/gnuplot_running_difference_21-04-12.html</guid>
+      <description>Problem I wanted to plot some statistics with gnuplot. The program puts out the total statistics over time, not just the new ones since the last write. So to get the statistics for in between the writes I needed to calculate the differences between the current value and the previous one on the fly.&#xA;There is an example for plotting running averages with gnuplot in their demos which I thought I could easily adapt.</description>
+    </item>
+    <item>
+      <title>Sampling efficiency / autocorrelation</title>
+      <link>https://bpampel.de/zettel/sampling_efficiency_autocorrelation_21-09-17.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/sampling_efficiency_autocorrelation_21-09-17.html</guid>
+      <description>How do we estimate &amp;ldquo;good&amp;rdquo; sampling? Typically I have assessed not the sampling directly but only some estimates from the sampling (for example the free energy surface or some observable) via error metrics such as an RMSD or the Kullback-Leibler divergence.&#xA;Some papers have used the &amp;ldquo;effective sample size&amp;rdquo; to measure the quality of sampling (see e.g. 1).&#xA;For MC simulations some papers 2,3 talk about how the &amp;ldquo;effective sample size&amp;rdquo; is not a good metric (see beginning of Sec 3 of Fang (2020)3) but rather the &amp;ldquo;Integrated autocorrelation time&amp;rdquo;</description>
+    </item>
+    <item>
+      <title>Selected Zettel</title>
+      <link>https://bpampel.de/zettel/zettel.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/zettel.html</guid>
+      <description>PhD Wavelets Literature on Population Dynamics Chaos, ergodicity, and mixing Itô vs Stratonovich Sampling efficiency / autocorrelation Definitions of free energy Multiwavelets Tech Building the website Git search repository Conventional commit messages Running difference in gnuplot Inkscape: Fix transparency for embedded images Biblatex Customizations Latex beamer with enumitem Github pages with custom domain Politik / Gesellschaft / Philosophie Retrotopie führt zu gesellschaftlichen Konflikten Politische Förderung von Wagniskapital Umweltpolitik Natur / Garten Jagd Mischkultur Anderes Leseliste Lose Sammlung von Zitaten / Aphorismen Pandi </description>
+    </item>
+    <item>
+      <title>There is no invisible referee</title>
+      <link>https://bpampel.de/zettel/invisible_referee.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/invisible_referee.html</guid>
+      <description>There is no invisible referee / Es gibt keinen unsichtbaren Schiedsrichter Natascha Strobl greift in ihrem Buch &amp;ldquo;Radikalisierter Konservativismus&amp;rdquo; die Idee des unsichtbaren Schiedsrichters auf: Auch wenn jemand im Recht sein mag (ich weiß, dass jemand anderes mein Eigentum zerstört hat oder Lügen über mich erzählt) heißt es nicht, dass auch Gerechtigkeit dafür erfahren wird. Ohne Macht zur Durchsetzung (den unsichtbaren Schiedsrichter) kann diese Gerechtigkeit nur schwer eingefordert werden. Sie nimmt Bezug auf einen Artikel von Nathan J.</description>
+    </item>
+    <item>
+      <title>Umweltpolitik</title>
+      <link>https://bpampel.de/zettel/umweltpolitik_22-02-25.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/umweltpolitik_22-02-25.html</guid>
+      <description>Kritik an Förderung des Humusaufbaus (carbon farming) als Klimaschutzmaßnahme: (Artikel im ND)&#xA;Förderung vor allem wenn bislang schlecht gewirtschaftet wurde Vor allem große Unternehmen profitieren Effekt hängt sehr vom Bodentyp ab Es ist fraglich ob überhaupt ein signifikanter Effekt erzielt wird </description>
+    </item>
+    <item>
+      <title>Wavelets</title>
+      <link>https://bpampel.de/zettel/wavelets.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/wavelets.html</guid>
+      <description>Mixed thoughts on Wavelets Daubechies wavelets: Family of orthogonal wavelets with smallest support for a given &amp;ldquo;number of vanishing moments&amp;rdquo; &amp;ndash;&amp;gt; good representation properties for piecewise polynomials Symlets are the &amp;ldquo;least asymmetric&amp;rdquo; variant: Slightly less regular but the filter with a near-linear phase results in more symmetric wavelets Quick lookup of some math terms: Spaces / Bases Riesz basis: generalization of orthonormal bases (all orthonormal bases are Riesz bases) $l^p$ space: space of all sequences satisfying $\sum_n \vert x_n \vert_p &amp;lt; \infty$</description>
+    </item>
+    <item>
+      <title>website</title>
+      <link>https://bpampel.de/zettel/website.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/website.html</guid>
+      <description>This is an explanation of how this website is built for future reference. Short story: The pages are written in Markdown and the respective HTML website is automatically generated by a static site generator (Hugo) every time I push to github (using github actions).&#xA;Although it looks like one website, each part (the main site, Kuchenwiki, Zettel) are actually created and maintained as separate websites, just using the same design and nearly identical settings.</description>
+    </item>
+    <item>
+      <title>Zitate und Aphorismen</title>
+      <link>https://bpampel.de/zettel/zitate.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/zitate.html</guid>
+      <description>Wer Großes will, muß sich zusammenraffen;&#xA;In der Beschränkung zeigt sich erst der Meister&#xA;&amp;mdash; Goethe: &amp;ldquo;Das Sonett&amp;rdquo;. Bezogen hier auf die straffe &amp;ldquo;Form&amp;rdquo; der Kunst&#xA;Quantification is a way of making decisions without seeming to decide&#xA;&amp;mdash; Theodore Porter: &amp;ldquo;Trust in Numbers&amp;rdquo; (1995)&#xA;[E]ine Gruppe von Menschen besitzt – wie Reinhold Niebuhr sagt – weniger moralisches Empfinden als ein Einzelner.&#xA;&amp;mdash; Martin Luther King: &amp;ldquo;Die Zeit für schöpferischen Protest ist gekommen&amp;rdquo;, entnommen aus &amp;ldquo;Ziviler Ungehorsam&amp;rdquo; (p.</description>
+    </item>
+  </channel>
+</rss>

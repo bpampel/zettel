@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Redirect a custom domain to github pages - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Pampel" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>Redirect a custom domain to github pages</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel/img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel"><img class="avatar-border" src="https://bpampel.de/zettel/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel">Zettel</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/github.html">github</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/dns.html">dns</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/website.html">website</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/domain.html">domain</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h1 id="how-to-redirect-a-custom-domain-to-github-pages">How to redirect a custom domain to github pages</h1>
+<p>Because I do not have a dedicated webspace to host my website, but do have a custom domain, I decided to simply redirect it to github pages.
+That also has the benefit of using automatic deployment via github actions.
+So the goal is to serve the website under <code>bpampel.github.io</code> but let it also be accessible via <code>bpampel.de</code>.</p>
+<p>To get the redirect working, you need to do two steps:</p>
+<ol>
+<li>set the correct <strong>A records</strong> for your domain</li>
+<li><strong>tell github the domain</strong> it should serve the content for</li>
+</ol>
+<p>Generally, changes to DNS records might take a while to have effect, so be patient.</p>
+<h2 id="setting-a-records">Setting A records</h2>
+<p>To set the <strong>A records</strong>, you need to access the DNS settings of your domain (often a web interface).
+Then, you need to add the four A records given <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">on this website</a></p>
+<p>In my case, I had no A records set previously. It might be a bit more complicated if you want to redirect only some subdomain.</p>
+<p>I also set a <strong>CNAME</strong> record for <code>www.bpampel.de</code> to <code>bpampel.github.io</code>.</p>
+<h2 id="github-settings">Github settings</h2>
+<p>On <code>github.com</code>, go to the repository hosting the website and access the <em>Settings</em>.
+Under <em>Pages</em> you can set a custom domain, simply enter it here and click save (in my case <code>bpampel.de</code>).</p>
+<p>It will take a bit until github has checked that your domain indeed links to github pages and it will then generate a SSL certificate, so your website can be served securely via HTTPS.
+This might take a bit.</p>
+<p>Due to caching, the changes might not be live directly. But after some time you should hopefully have a working redirect.</p>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2024 Benjamin Pampel.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

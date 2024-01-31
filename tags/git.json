@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/conventional_commit_messages_24_01_31.html",
+        "title": "Conventional commit messages",
+        "section": "",
+        "tags": ["coding","git"],
+        "date" : "0001.01.01",
+        "body": "I recently tried out using conventional commit messages for git.\nThe basic structure of a commit message should be\n\u0026lt;type\u0026gt;[optional scope]: \u0026lt;description\u0026gt; [optional body] [optional footer(s)] For the type only feat and fix are hard definitions. Other types with definitions include\nfeat – a new feature is introduced with the changes fix – a bug fix has occurred chore – changes that do not relate to a fix or feature and don\u0026rsquo;t modify src or test files (for example updating dependencies) refactor – refactored code that neither fixes a bug nor adds a feature docs – updates to documentation such as a the README or other markdown files style – changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons, and so on. test – including new or correcting previous tests perf – performance improvements ci – continuous integration related build – changes that affect the build system or external dependencies revert – reverts a previous commit There are some conventions if you use an automatic versioning tool:\nadding a BREAKING_CHANGE or appending a ! after the type/scope bumps the MAJOR version. any feat commit increases the MINOR version any other commit type only the PATCH number. "
+    }
+]

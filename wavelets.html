@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Wavelets - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Pampel" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>Wavelets</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel/img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel"><img class="avatar-border" src="https://bpampel.de/zettel/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel">Zettel</a></h2>
+</header>
+
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/wavelets.html">wavelets</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/basisfunction.html">basisfunction</a></li>
+        
+      
+        
+        
+          <li><a href="https://bpampel.de/zettel/tags/basis.html">basis</a></li>
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h1 id="mixed-thoughts-on-wavelets">Mixed thoughts on Wavelets</h1>
+<ul>
+<li>Daubechies wavelets: Family of orthogonal wavelets with smallest support for a given &ldquo;number of vanishing moments&rdquo; &ndash;&gt; good representation properties for piecewise polynomials</li>
+<li>Symlets are the &ldquo;least asymmetric&rdquo; variant: Slightly less regular but the filter with a near-linear phase results in more symmetric wavelets</li>
+</ul>
+<h3 id="quick-lookup-of-some-math-terms">Quick lookup of some math terms:</h3>
+<h4 id="spaces--bases">Spaces / Bases</h4>
+<ul>
+<li>Riesz basis: generalization of orthonormal bases (all orthonormal bases are Riesz bases)</li>
+<li>$l^p$ space: space of all sequences satisfying $\sum_n \vert x_n \vert_p &lt; \infty$<br>
+-&gt; Sum of norms is finite.<br>
+example: $l^2$ is all square summable sequences</li>
+<li>$L^p$ space: same with functions, e.g. $L^2$ is space of all square integrateable functions (= finite energy), called &ldquo;Lebesgue space&rdquo;</li>
+<li>Sobolev space $W^k_p$: Subset of functions $f \in L^p$ whose weak derivatives up to order $k$ have finite $L^p$ norm<br>
+Important special case: $p=2$: Forms Hilbert space, short notation often $W^k_2 = H^k$</li>
+<li>Schauder basis: countable basis (can have infinite sum to represent element instead of finite in ordinary Hamel basis)</li>
+</ul>
+<h4 id="misc">Misc</h4>
+<ul>
+<li>Monoic polynomial: polynomial with leading coefficient (highest order) equal to 1</li>
+<li>Hyperbolic wavelet basis: linear approximation via &ldquo;sparse grid-type bases&rdquo;</li>
+<li>Smoothness: $C^n$ means function has $n$ continous derivatives</li>
+<li>Parseval&rsquo;s theorem: analogue of Pythagoras&rsquo; theorem for functions and proofs completeness (see notebook)</li>
+</ul>
+<h4 id="splines">Splines</h4>
+<ul>
+<li>$C^n$ is continuity:
+<ul>
+<li>$C^1$: continuity of the tangent vector: &ldquo;continuous derivative&rdquo;</li>
+<li>$C^2$: continuity of the slope</li>
+</ul>
+</li>
+<li>Knots: how many points &ldquo;coalesce&rdquo;
+<ul>
+<li>simple knot: knot with $C^n-1$ continuity</li>
+<li>double knot: knot with $C^n-2$ continuity</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2024 Benjamin Pampel.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

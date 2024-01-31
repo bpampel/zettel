@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Chaos, ergodicity, and mixing - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Pampel" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>Chaos, ergodicity, and mixing</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel/img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel"><img class="avatar-border" src="https://bpampel.de/zettel/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel">Zettel</a></h2>
+</header>
+
+  
+  
+  
+  
+  <div id="contentBody">
+    <h2 id="ergodicity-and-mixing">Ergodicity and mixing</h2>
+<p>In Coveney &amp; Wan (2016) <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> there is some descriptive explanation of some of the terms related to <strong>ergodicity</strong> and <strong>mixing</strong>.</p>
+<p><strong>Ergodicity</strong> is colloquially defined as: &ldquo;given infinite time, the system passes through all points of the phase space&rdquo;
+For a more mathematical definition, see e.g. <a href="https://encyclopediaofmath.org/wiki/Birkhoff_ergodic_theorem">Birkhoff ergodic theorem</a></p>
+<p>A <strong>mixing</strong> system is there defined as one where there is a sensitivity to initial conditions, i.e. the late behavior of the system is totally uncorrelated with its early time properties.
+In mathematic terms the system has at least one positiv definite Lyapunov exponent.
+It says that colloquially this is the same as a &ldquo;chaotic&rdquo; system.
+I&rsquo;m not fully sure about their definitions.
+Elsewhere I read that the positive definite Lyapunov exponent comes from the chaotic property: the distance between two trajectories has to strictly increase over time</p>
+<p>A mixing system is ergodic and additionally has an approach to equilibrium.</p>
+<p>I.e. just ergodicity alone does not mean that the system will really go to an equilibrium state, which is important for statistical estimates.</p>
+<hr>
+<h2 id="gallavotti-cohen-theorem">Gallavotti-Cohen theorem</h2>
+<p>More mathy theory related to this, I found it through a reference for &ldquo;small noise limit&rdquo;.
+I think it is mostly relevant when employing thermostats for forced dynamics in the microcanonical ensemble (and deterministic systems), so it&rsquo;s here only for future reference, without any guarantees for correctness.</p>
+<p>Gallavotti-Cohen theorem (<em>Chaotic hypothesis</em>):</p>
+<blockquote>
+<p>A reversible many-particle system in a stationary state can be regarded as a transitive Anosov system for the purpose of computing the macroscopic properties of the system. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+</blockquote>
+<p>I didn&rsquo;t fully follow the math to understand <em>what exactly</em> Anosov systems are, but I think besides the positiv Lyapunov exponent it also requires &ldquo;hyperbolic dynamics&rdquo; (I think this means a special case of &ldquo;forced&rdquo; and deterministic), time-reversibility and more, i.e. it is for very specific systems. (might have gotten this totally wrong but it&rsquo;s a lot of math)</p>
+<p>Based on this Kurchan (2007)<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> presented some requirements for when a system has this chaotic property in a steady state. Here is how he describes the Gallavotti-Cohen theorem</p>
+<blockquote>
+<p>For a purely deterministic case, a forced system converges to an ‘attractor’ set, while the time-reversed dynamics converges to a ‘repellor’ set.
+Loosely speaking, the Gallavotti– Cohen theorem is then based on two types of hypotheses:
+(i) that the attractor is sufficiently chaotic, and (ii) that the attractor and repellor are interwoven fractals with sufficiently overlapping closures. As the forcing is increased, attractor and repellor tend to separate, and even if the attractor remains chaotic the Fluctuation Relation no longer holds in general.
+For macroscopic systems at reasonable levels of forcing, one can assume that the hypotheses  above are effectively (if not always strictly) satisfied, leading to the Chaotic Hypothesis.</p>
+</blockquote>
+<p>The paper gives citations where the Fluctuation relation trivially holds in many cases, and proves that it actually holds in most macroscopic cases. From the introduction:<br>
+It trivially holds for (i) systems starting from an equilibrium configuration (ii) systems in contact with a thermal
+bath involving stochastic noise that guarantees ergodicity.
+For deterministic thermostats this is not as clear, although the paper only talks about thermostats that are energy-conserving noise.</p>
+<p>It discusses weak-noise and small-noise limits and shows that in the &ldquo;small noise limit&rdquo; the Gallavotti-Cohen theorem is always satisfied</p>
+<p>In Giardinà (2011) <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>, there is also some discussion about the theorem and it&rsquo;s implications.</p>
+<h2 id="footnotes">Footnotes</h2>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://doi.org/10.1039/C6CP02349E">P. Coveney, S. Wan, Phys. Chem. Chem. Phys., 2016, 18, 30236-30240</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://doi.org/10.1007/BF02179860">Gallavotti, G., Cohen, E.G.D. Dynamical ensembles in stationary states. J Stat Phys 80, 931–970 (1995)</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://doi.org/10.1007/s10955-007-9368-z">J. Kurchan, Gallavotti–Cohen Theorem, Chaotic Hypothesis and the Zero-Noise Limit. J Stat Phys 128, 1307–1320 (2007)</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://link.springer.com/article/10.1007%2Fs10955-011-0350-4">C. Giardinà, J. Kurchan, V. Lecomte, and J. Tailleur, J. Stat. Phys. 145, 787 (2011)</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2024 Benjamin Pampel.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

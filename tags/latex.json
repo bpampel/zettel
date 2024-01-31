@@ -1,0 +1,19 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/biblatex_customizations_22-01-26.html",
+        "title": "Biblatex Customizations",
+        "section": "",
+        "tags": ["latex","biblatex","bibliography"],
+        "date" : "0001.01.01",
+        "body": "Biblatex: citenum command, papers under preparation, and no ISBN/ISSN if DOI present For my PhD thesis I used biblatex with the biber backend to generate the citations and bibliography automatically in the \u0026ldquo;numeric\u0026rdquo; style.\nI encountered three small problems:\nThe \\citenum command from natbib (to have in-text citations like In Ref. 3) does not exist in biblatex The bibliography style for @article prefixes the journal title with \u0026ldquo;In: \u0026ldquo;, but I have some papers under preparation that do not have a journal title set. Because I generated most of the bib entries automatically with zotero, often both ISBN/ISSN and DOI are set. I don\u0026rsquo;t want to lengthen the bibliography entries by including both, but by default you can only remove the identifiers unconditionally. adding a citenum command A simple implementation of the \\citenum command is found in this StackExchange answer:\n\\DeclareCiteCommand{\\citenum}% {\\usebibmacro{cite:init}% \\usebibmacro{prenote}} {\\usebibmacro{citeindex}% \\usebibmacro{cite:comp}} {} {\\usebibmacro{cite:dump}% \\usebibmacro{postnote}} Removing the \u0026ldquo;In :\u0026rdquo; prefix for papers under preparation The numeric biblatex style for @article entries looks like this (simplified):\nFirst1 Last1, First2 Last2, and First3 Last3. “Title of paper.” In: Journal title vol.issue (year)\nI had some papers that were under preparation at the time of finishing the thesis that I wanted to include nevertheless. Using a @article entry without journal information and date = {under preparation} does not work out of the box: the prefix In: is added even if no journal title is set.\nTo remove it, the in: command is modified:\n\\renewbibmacro*{in:}{ \\iffieldundef{journaltitle} {} {\\bibstring{in}\\printunit{\\intitlepunct}} } Show ISBN/ISSN only if DOI is not set \\AtEveryBibitem{ \\iffieldundef{doi} {} {\\clearfield{issn}% \\clearfield{isbn}}% } "
+    }
+,
+    {
+        "ref": "https://bpampel.de/zettel/latex_beamer_with_enumitem.html",
+        "title": "Latex beamer with enumitem",
+        "section": "",
+        "tags": ["tex","beamer","presentation","latex","enumerate"],
+        "date" : "0001.01.01",
+        "body": "It is not recommended to use the enumitem package with a beamer document class in TeX. When trying without any further ado (just \\usepackage{enumitem}) in a beamer document it will result in an error: ! TeX capacity exceeded, sorry [grouping levels=255].\nThe reason is that enumitem assums that the document class defines the \\labelenumi command, but beamer doesn\u0026rsquo;t! Manually defining it is not recommended: the beamer class (re-)defines the commands and environments, loading enumitem would then result in these being overwritten. This stackoverflow answer provides a fix, but the generel consensus is to better not use enumitem if one doesn\u0026rsquo;t strictly need it.\n"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://bpampel.de/zettel/sampling_efficiency_autocorrelation_21-09-17.html",
+        "title": "Sampling efficiency / autocorrelation",
+        "section": "",
+        "tags": ["Monte Carlo","Langevin Dynamics","sampling","error metric","autocorrelation"],
+        "date" : "0001.01.01",
+        "body": "How do we estimate \u0026ldquo;good\u0026rdquo; sampling? Typically I have assessed not the sampling directly but only some estimates from the sampling (for example the free energy surface or some observable) via error metrics such as an RMSD or the Kullback-Leibler divergence.\nSome papers have used the \u0026ldquo;effective sample size\u0026rdquo; to measure the quality of sampling (see e.g. 1).\nFor MC simulations some papers 2,3 talk about how the \u0026ldquo;effective sample size\u0026rdquo; is not a good metric (see beginning of Sec 3 of Fang (2020)3) but rather the \u0026ldquo;Integrated autocorrelation time\u0026rdquo;\nFootnotes M. Invernizzi, P. M. Piaggi, and M. Parrinello, “Unified approach to enhanced sampling,” Phys. Rev. X, vol. 10, no. 4, Nov. 2020\u0026#160;\u0026#x21a9;\u0026#xfe0e;\nR. D. Skeel and C. Hartmann, “Choice of damping coefficient in Langevin dynamics,” Eur. Phys. J. B, vol. 94, no. 9, p. 178, Sep. 2021\u0026#160;\u0026#x21a9;\u0026#xfe0e;\nY. Fang, Y. Cao, and R. D. Skeel, “Quasi-reliable estimates of effective sample size,” IMA Journal of Numerical Analysis, p. draa077, Oct. 2020\u0026#160;\u0026#x21a9;\u0026#xfe0e;\u0026#160;\u0026#x21a9;\u0026#xfe0e;\n"
+    }
+]

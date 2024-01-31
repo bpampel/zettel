@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Itô vs Stratonovich - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Pampel" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>Itô vs Stratonovich</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel/img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel"><img class="avatar-border" src="https://bpampel.de/zettel/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel">Zettel</a></h2>
+</header>
+
+  
+  
+  
+  
+  <div id="contentBody">
+    <h2 id="itô-and-stratonovich-interpretation-of-stochastic-integrals">Itô and Stratonovich interpretation of stochastic integrals</h2>
+<p>This follows mostly chapter 3.2 of Pavlotis.</p>
+<p>For a stochastic integral of the form</p>
+<p>$$I(t) = \int_0^t f(s) dW(s)$$</p>
+<p>we are interested in integrating some process $f(t)$ up to some intermediate time $t \in [0, T]$ that depends only on the past of the Brownian motion $W(t)$.</p>
+<p>We do a Riemann sum approximation of the integral:</p>
+<p>The time is partitioned into small intervals of size $\delta t$, i.e.</p>
+<p>$$t_k = k * \delta t  \qquad \text{for}\quad k=0,…,K-1$$</p>
+<p>and we define with the parameter $\lambda \in [0,1]$</p>
+<p>$$\tau_k = (1 - \lambda) t_k + \lambda t_{k+1}$$</p>
+<p>the stochastic integral as the $L^2$ limit of the Riemann sum approximation</p>
+<p>$$I(t) := lim_{K \rightarrow \infty} \sum_k f(\tau_k) ( W(t_{k+1}) - W(t_k) )$$</p>
+<p>The result depends on the choice of $\lambda$: Where do we evaluate $f(t)$ for the &ldquo;rectangles&rdquo;? (Compare with the midpoint for a standard Riemann integral)</p>
+<p>The most common choices are</p>
+<ul>
+<li>$\lambda = 0$ (Itô): evaluate at left endpoint (advantage: no correlation to the current increment)</li>
+<li>$\lambda = 1/2$ (Stratonovich): evaluate at the midpoint (advantage: standard chain rule)</li>
+</ul>
+<p>Choice depends on interpretation, seldomly others than these two are used.</p>
+
+  </div>
+  <footer>
+  <p>
+  &copy; 2024 Benjamin Pampel.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>

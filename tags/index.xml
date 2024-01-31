@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Zettel</title>
+    <link>https://bpampel.de/zettel/tags.html</link>
+    <description>Recent content in Tags on Zettel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://bpampel.de/zettel/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>autocorrelation</title>
+      <link>https://bpampel.de/zettel/tags/autocorrelation.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/autocorrelation.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>awk</title>
+      <link>https://bpampel.de/zettel/tags/awk.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/awk.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>basis</title>
+      <link>https://bpampel.de/zettel/tags/basis.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/basis.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>basisfunction</title>
+      <link>https://bpampel.de/zettel/tags/basisfunction.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/basisfunction.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>beamer</title>
+      <link>https://bpampel.de/zettel/tags/beamer.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/beamer.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>biblatex</title>
+      <link>https://bpampel.de/zettel/tags/biblatex.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/biblatex.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>bibliography</title>
+      <link>https://bpampel.de/zettel/tags/bibliography.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/bibliography.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>coding</title>
+      <link>https://bpampel.de/zettel/tags/coding.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/coding.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>columns</title>
+      <link>https://bpampel.de/zettel/tags/columns.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/columns.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>difference</title>
+      <link>https://bpampel.de/zettel/tags/difference.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/difference.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dns</title>
+      <link>https://bpampel.de/zettel/tags/dns.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/dns.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>domain</title>
+      <link>https://bpampel.de/zettel/tags/domain.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/domain.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>enumerate</title>
+      <link>https://bpampel.de/zettel/tags/enumerate.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/enumerate.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>error metric</title>
+      <link>https://bpampel.de/zettel/tags/error-metric.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/error-metric.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>fes</title>
+      <link>https://bpampel.de/zettel/tags/fes.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/fes.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>free_energy</title>
+      <link>https://bpampel.de/zettel/tags/free_energy.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/free_energy.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geschichte</title>
+      <link>https://bpampel.de/zettel/tags/geschichte.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/geschichte.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gesellschaft</title>
+      <link>https://bpampel.de/zettel/tags/gesellschaft.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/gesellschaft.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>git</title>
+      <link>https://bpampel.de/zettel/tags/git.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/git.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>github</title>
+      <link>https://bpampel.de/zettel/tags/github.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/github.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>github-actions</title>
+      <link>https://bpampel.de/zettel/tags/github-actions.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/github-actions.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>gnuplot</title>
+      <link>https://bpampel.de/zettel/tags/gnuplot.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/gnuplot.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hugo</title>
+      <link>https://bpampel.de/zettel/tags/hugo.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/hugo.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>interpolating polynomial</title>
+      <link>https://bpampel.de/zettel/tags/interpolating-polynomial.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/interpolating-polynomial.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Klima</title>
+      <link>https://bpampel.de/zettel/tags/klima.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/klima.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langevin Dynamics</title>
+      <link>https://bpampel.de/zettel/tags/langevin-dynamics.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/langevin-dynamics.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>latex</title>
+      <link>https://bpampel.de/zettel/tags/latex.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/latex.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mathjax</title>
+      <link>https://bpampel.de/zettel/tags/mathjax.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/mathjax.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monte Carlo</title>
+      <link>https://bpampel.de/zettel/tags/monte-carlo.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/monte-carlo.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophie</title>
+      <link>https://bpampel.de/zettel/tags/philosophie.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/philosophie.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>presentation</title>
+      <link>https://bpampel.de/zettel/tags/presentation.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/presentation.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sampling</title>
+      <link>https://bpampel.de/zettel/tags/sampling.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/sampling.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tex</title>
+      <link>https://bpampel.de/zettel/tags/tex.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/tex.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wavelets</title>
+      <link>https://bpampel.de/zettel/tags/wavelets.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/wavelets.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>website</title>
+      <link>https://bpampel.de/zettel/tags/website.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/website.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zukunft</title>
+      <link>https://bpampel.de/zettel/tags/zukunft.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/zukunft.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

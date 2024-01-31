@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          free_energy - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Pampel" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>free_energy</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel/img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel"><img class="avatar-border" src="https://bpampel.de/zettel/img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel">Zettel</a></h2>
+</header>
+
+  
+  <div id="searchBox">
+    <input type="text" id="searchBoxInput" placeholder="Search..." />
+    <img id="searchBoxIcon" src="https://bpampel.de/zettel/img/search.png" />
+  </div>
+  
+  <div id="searchResults"></div>
+  
+  <div id="tags">
+    <ul>
+      
+        <li><a href="https://bpampel.de/zettel/tags/geschichte.html">Geschichte (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/gesellschaft.html">Gesellschaft (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/github.html">github (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/klima.html">Klima (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/latex.html">latex (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/philosophie.html">Philosophie (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/wavelets.html">Wavelets (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/website.html">website (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/zukunft.html">Zukunft (2)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/autocorrelation.html">autocorrelation (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/awk.html">awk (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/basis.html">basis (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/basisfunction.html">basisfunction (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/beamer.html">beamer (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/biblatex.html">biblatex (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/bibliography.html">bibliography (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/coding.html">coding (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/columns.html">columns (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/difference.html">difference (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/dns.html">dns (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/domain.html">domain (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/enumerate.html">enumerate (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/error-metric.html">error metric (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/fes.html">fes (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/free_energy.html">free_energy (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/git.html">git (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/github-actions.html">github-actions (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/gnuplot.html">gnuplot (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/hugo.html">hugo (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/interpolating-polynomial.html">interpolating polynomial (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/langevin-dynamics.html">Langevin Dynamics (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/mathjax.html">mathjax (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/monte-carlo.html">Monte Carlo (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/presentation.html">presentation (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/sampling.html">sampling (1)</a></li>
+      
+        <li><a href="https://bpampel.de/zettel/tags/tex.html">tex (1)</a></li>
+      
+    </ul>
+  </div>
+  
+  <div id="contentsList">
+    
+    
+    
+    <p class="date">January, 0001</p>
+    
+      <p><a href="https://bpampel.de/zettel/free_energy_definitions_200928.html">Definitions of free energy</a></p>
+    
+    
+  </div>
+  <footer>
+  <p>
+  &copy; 2024 Benjamin Pampel.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+  
+  
+  
+  
+  
+  <script src="https://bpampel.de/zettel/bundle.min.0c8b196c997d0f2903abac14bad8cc4b809e6f222ddde6a2987be9e88010079c.js"></script>
+
+  </body>
+</html>

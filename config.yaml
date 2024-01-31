@@ -1,14 +1,27 @@
 title: "Zettel"
-baseURL: "https://bpampel.github.io/zettel"
+baseURL: "https://bpampel.de/zettel"
 languageCode: "en-us"
 theme: "pulp"
 canonifyURLs: true
 uglyurls: true
 sectionPagesMenu: "main"
+enableRobotsTXT: true
 
 params:
   Author: "Benjamin Pampel"
-  publicationYear: 2021
+  publicationYear: 2022
   avatar: "baerli.jpg"
   avatarDescription: "cake eater"
-  favicon: "cake.ico"
+  favicon: "note_box.ico"
+  css: ["css/custom.css"]
+  math: true
+
+markup:
+  highlight:
+    style: monokai
+    lineNos: true
+
+outputs:
+  section: ["JSON", "HTML"]
+  term: ["JSON", "HTML"]
+

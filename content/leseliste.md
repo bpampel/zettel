@@ -7,14 +7,12 @@ draft: false
 
 ## Leseliste
 
-- May Ayim - [Blues in Schwarz Weiß](https://unrast-verlag.de/gesamtprogramm/allgemeines-programm/belletristik/blues-in-schwarz-weiss-nachtgesang-detail)
+- Natascha Strobl - [Solidarität](https://www.kremayr-scheriau.at/bucher-e-books/titel/solidaritaet/)
+- Matthias Quandt et al - [Klimarassismus](https://www.piper.de/buecher/klimarassismus-isbn-978-3-492-06399-9)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [Feminism is for everybody](https://www.amazon.de/FEMINISM-EVERYBODY-Passionate-bell-hooks/dp/0745317332), [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
-- James Rebanks - [The Shepherds Life](https://www.buecher.de/shop/wirtschaft/the-shepherds-life/rebanks-james/products_products/detail/prod_id/43852434/)
-- Elsa Fernández - [Fragmente über das Überleben](https://www.unrast-verlag.de/neuerscheinungen/fragmente-ueber-das-ueberleben-detail)
 - Aiko Kempen - [Auf dem rechten Weg](https://europa-verlag.com/Buecher/6565/AufdemrechtenWeg.html)
 - Aischa Ahmed - [Arabische Präsenzen in Deutschland um 1900](https://www.transcript-verlag.de/978-3-8376-5411-0/arabische-praesenzen-in-deutschland-um-1900/)
-- Edzard Ernst - [Alternativmedizin](https://www.gu.de/produkte/koerper-geist-seele/alternativ-heilen/alternativmedizin-was-hilft-was-schadet-ernst-2021/)
 - Matthias Heine - [Verbrannte Wörter](https://shop.duden.de/products/verbrannte-worter)
 - Angela Saini - [Superior](https://www.buecher.de/shop/allgemein/superior/saini-angela/products_products/detail/prod_id/58277334/)
 - Kübra Gümüsay - Sprache und sein
@@ -35,9 +33,13 @@ draft: false
 - (Paul Mason - [PostCapitalism](https://www.amazon.de/PostCapitalism-Guide-Future-Paul-Mason/dp/0141975296) / [Postkapitalismus](https://www.suhrkamp.de/buch/paul-mason-postkapitalismus-t-9783518425398))
 - (Niko Paech - [Postwachstumsökonomie](https://www.oekom.de/buch/befreiung-vom-ueberfluss-9783865811813))
 - (David Graeber - Debt)
+- Theodore M. Porter - Trust in Numbers
 - Christoph Nonn - [12 Jahre](https://www.chbeck.de/nonn-12-tage-halbes-jahrhundert/product/30934879)
 - [Farbe bekennen](https://orlanda.de/book/may-ayim-katharina-oguntoye-dagmar-schultz-hg-farbe-bekennen-afro-deutsche-frauen-auf-den-spuren-ihrer-geschichte)
 - Guy Shrubsole - [Who owns England](https://www.osiander.de/shop/home/artikeldetails/ID144255308.html)
+- Anand Giridharadas - [Winners Take All: The Elite Charade of Changing the World](https://www.genialokal.de/Produkt/Anand-Giridharadas/Winners-Take-All_lid_38765962.html)
+- David Bond - [Negative Ecologies](https://www.ucpress.edu/book/9780520386785/negative-ecologies)
+- Jasmin Schreiber - [Biodiversität](https://www.reclam.de/detail/978-3-15-020673-7/Schreiber__Jasmin/Biodiversitaet__100_Seiten)
 
 ### "Klassiker"
 - James Joyce - Ulysees
@@ -67,8 +69,8 @@ draft: false
 ### Coding
 - C++
 - Robert Martin - Clean Code
+- Frederick Brooks - [The Mythical Man Month](https://archive.org/details/MythicalManMonth)
 
 ### Philo-Theorie
 - Adorno - Minima moralia (gibts ulb)
 - Ernst Bloch - Prinzip Hoffnung
-- Horkheimer / Adorno - Dialektik der Aufklärung [x]

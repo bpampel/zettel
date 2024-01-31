@@ -1,6 +1,7 @@
 ---
 title: Git search repository
 date: 2021-07-14 12:37
+draft: false
 ---
 Remember implementing some feature but can't find it?
 Was it changed later? Is it in some unmerged branch?

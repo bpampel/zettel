@@ -7,8 +7,6 @@ draft: false
 
 ## Leseliste
 
-- Natascha Strobl - [Solidarität](https://www.kremayr-scheriau.at/bucher-e-books/titel/solidaritaet/)
-- Matthias Quandt et al - [Klimarassismus](https://www.piper.de/buecher/klimarassismus-isbn-978-3-492-06399-9)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [Feminism is for everybody](https://www.amazon.de/FEMINISM-EVERYBODY-Passionate-bell-hooks/dp/0745317332), [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
 - Aiko Kempen - [Auf dem rechten Weg](https://europa-verlag.com/Buecher/6565/AufdemrechtenWeg.html)
@@ -20,7 +18,6 @@ draft: false
 - Waubgeshig Rice - [Moon of the crusted snow](https://www.buecher.de/shop/englische-buecher/moon-of-the-crusted-snow/rice-waubgeshig/products_products/detail/prod_id/50911476/)
 - Jane Jacobs - [The Death and Life of Great American Cities](https://www.buecher.de/shop/kunst--architektur/the-death-and-life-of-great-american-cities/jacobs-jane/products_products/detail/prod_id/21327687/)
 - Margaret W. Rossiter - Women Scientists in America: Struggles and Strategies to 1940
-- Omer C. Stewart - [Forgotten Fires: Native Americans and the Transient Wilderness](https://www.buecher.de/shop/nordamerika/forgotten-fires/stewart-omer-c-/products_products/detail/prod_id/25855207/)
 - Schaser, Schraut - [Erinnern, vergessen umdeuten](https://www.campus.de/buecher-campus-verlag/wissenschaft/geschichte/erinnern_vergessen_umdeuten-15357.html)
 - Theweleit - Männerphantasien
 - Martha Nussbaum - Loves Knowledge
@@ -39,7 +36,7 @@ draft: false
 - Guy Shrubsole - [Who owns England](https://www.osiander.de/shop/home/artikeldetails/ID144255308.html)
 - Anand Giridharadas - [Winners Take All: The Elite Charade of Changing the World](https://www.genialokal.de/Produkt/Anand-Giridharadas/Winners-Take-All_lid_38765962.html)
 - David Bond - [Negative Ecologies](https://www.ucpress.edu/book/9780520386785/negative-ecologies)
-- Jasmin Schreiber - [Biodiversität](https://www.reclam.de/detail/978-3-15-020673-7/Schreiber__Jasmin/Biodiversitaet__100_Seiten)
+- Betrand Russell - [Introduction to mathematical philosophy](https://www.genialokal.de/Produkt/Bertrand-Russell/Introduction-to-Mathematical-Philosophy_lid_12541575.html), [Probleme der Philosophie](https://www.genialokal.de/Produkt/Bertrand-Russell/Probleme-der-Philosophie_lid_1430674.html)
 
 ### "Klassiker"
 - James Joyce - Ulysees

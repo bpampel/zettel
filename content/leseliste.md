@@ -16,6 +16,7 @@ draft: false
 - Kübra Gümüsay - Sprache und sein
 - Tupoka Ogette - Exit racism
 - Waubgeshig Rice - [Moon of the crusted snow](https://www.buecher.de/shop/englische-buecher/moon-of-the-crusted-snow/rice-waubgeshig/products_products/detail/prod_id/50911476/)
+- Jean D’Amérique - [Zerissene Sonne](https://litradukt.de/buecher/zerrissene-sonne/)
 - Jane Jacobs - [The Death and Life of Great American Cities](https://www.buecher.de/shop/kunst--architektur/the-death-and-life-of-great-american-cities/jacobs-jane/products_products/detail/prod_id/21327687/)
 - Margaret W. Rossiter - Women Scientists in America: Struggles and Strategies to 1940
 - Schaser, Schraut - [Erinnern, vergessen umdeuten](https://www.campus.de/buecher-campus-verlag/wissenschaft/geschichte/erinnern_vergessen_umdeuten-15357.html)
@@ -65,7 +66,6 @@ draft: false
 
 ### Coding
 - C++
-- Robert Martin - Clean Code
 - Frederick Brooks - [The Mythical Man Month](https://archive.org/details/MythicalManMonth)
 
 ### Philo-Theorie

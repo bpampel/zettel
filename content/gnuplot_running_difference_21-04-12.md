@@ -1,6 +1,6 @@
 ---
 title: Running difference in gnuplot
-date: 2021-04-12 12:54
+date: 2021-04-12
 draft: false
 tags: ["awk", "gnuplot", "difference", "columns"]
 ---

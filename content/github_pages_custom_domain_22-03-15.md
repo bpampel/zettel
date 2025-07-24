@@ -1,6 +1,6 @@
 ---
 title: Redirect a custom domain to github pages
-date: 2022-03-15 23:40
+date: 2022-03-15
 draft: false
 tags: ["github", "dns", "website", "domain"]
 ---

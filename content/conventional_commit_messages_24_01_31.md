@@ -1,6 +1,6 @@
 ---
 title: Conventional commit messages
-date: 2024-01-31 08:06
+date: 2024-01-31
 tags: ["coding", "git"]
 draft: false
 ---

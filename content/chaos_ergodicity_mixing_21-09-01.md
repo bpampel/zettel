@@ -1,6 +1,6 @@
 ---
 title: Chaos, ergodicity, and mixing
-date: 2021-09-01 10:45
+date: 2021-09-01
 draft: false
 ---
 

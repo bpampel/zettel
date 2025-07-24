@@ -1,6 +1,6 @@
 ---
 title: inkscape_embedded_image_transparency
-date: 2021-12-10 12:07
+date: 2021-12-10
 draft: false
 ---
 

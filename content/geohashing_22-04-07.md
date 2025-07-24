@@ -1,6 +1,6 @@
 ---
 title: geohashing
-date: 2022-04-07 10:43
+date: 2022-04-07
 draft: false
 ---
 

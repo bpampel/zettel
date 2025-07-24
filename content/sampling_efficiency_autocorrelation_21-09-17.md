@@ -1,6 +1,6 @@
 ---
 title: Sampling efficiency / autocorrelation
-date: 2021-09-17 11:17
+date: 2021-09-17
 draft: false
 tags: ["Monte Carlo", "Langevin Dynamics", "sampling", "error metric", "autocorrelation"]
 ---

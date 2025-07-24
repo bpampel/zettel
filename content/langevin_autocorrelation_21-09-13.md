@@ -1,6 +1,6 @@
 ---
 title: Langevin velocity autocorrelation functions
-date: 2021-09-13 17:32
+date: 2021-09-13
 draft: true
 ---
 

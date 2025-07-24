@@ -1,6 +1,6 @@
 ---
 title: Wavelets
-date: 2019-03-15 10:31
+date: 2019-03-15
 draft: false
 tags: ["wavelets", "basisfunction", "basis"]
 math: true

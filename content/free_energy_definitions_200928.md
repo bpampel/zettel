@@ -1,6 +1,6 @@
 ---
 title: "Definitions of free energy"
-date: 2020-09-25T11:57
+date: 2020-09-25
 tags: ["fes", "free_energy"]
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Umweltpolitik
-date: 2022-02-25 11:31
+date: 2022-02-25
 draft: no
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Retrotopie führt zu gesellschaftlichen Konflikten
-date: 2021-04-06 11:31
+date: 2021-04-06
 tags: [Philosophie, Gesellschaft, Geschichte, Zukunft, Klima]
 ---
 

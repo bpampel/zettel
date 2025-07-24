@@ -1,6 +1,6 @@
 ---
 title: website
-date: 2022-03-21 13:00
+date: 2022-03-21
 draft: false
 tags: ["website", "hugo", "github", "github-actions", "mathjax"]
 ---

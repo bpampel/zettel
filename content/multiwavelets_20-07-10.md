@@ -1,6 +1,6 @@
 ---
 title: Multiwavelets
-date: 2020-07-10 22:36
+date: 2020-07-10
 draft: false
 tags: ["Wavelets", "interpolating polynomial"]
 ---

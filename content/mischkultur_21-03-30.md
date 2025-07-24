@@ -1,6 +1,6 @@
 ---
 title: Mischkultur
-date: 2021-03-30 14:10
+date: 2021-03-30
 ---
 
 4 Beete: Wechsel zwischen

@@ -1,6 +1,6 @@
 ---
 title: Git search repository
-date: 2021-07-14 12:37
+date: 2021-07-14
 draft: false
 ---
 Remember implementing some feature but can't find it?

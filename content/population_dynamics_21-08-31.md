@@ -1,6 +1,6 @@
 ---
 title: population dynamics
-date: 2021-08-31 11:04
+date: 2021-08-31
 draft: false
 ---
 

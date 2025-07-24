@@ -1,6 +1,6 @@
 ---
 title: Politische Förderung von Wagniskapital
-date: 2021-09-20 17:00
+date: 2021-09-20
 tags: [Philosophie, Gesellschaft, Geschichte, Zukunft, Klima]
 draft: false
 ---

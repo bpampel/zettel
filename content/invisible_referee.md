@@ -1,6 +1,6 @@
 ---
 title: There is no invisible referee
-date: 2022-04-07 14:34
+date: 2022-04-07
 draft: false
 ---
 

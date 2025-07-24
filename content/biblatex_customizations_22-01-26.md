@@ -1,6 +1,6 @@
 ---
 title: Biblatex Customizations
-date: 2022-01-26 19:55
+date: 2022-01-26
 draft: false
 tags: ["latex", "biblatex", "bibliography"]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Latex beamer with enumitem
-date: 2022-04-12 17:37
+date: 2022-04-12
 draft: false
 tags: ['tex', 'beamer', 'presentation', 'latex', 'enumerate']
 ---

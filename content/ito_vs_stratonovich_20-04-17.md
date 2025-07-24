@@ -1,6 +1,6 @@
 ---
 title: Itô vs Stratonovich
-date: 2020-04-17 16:24
+date: 2020-04-17
 draft: false
 ---
 

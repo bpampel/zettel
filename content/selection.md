@@ -34,7 +34,7 @@ menu: 'main'
 
 # Natur / Garten
 - [Jagd](jagd_21-10-25)
-- [Mischkultur](mischkultur_21-03-30.md)
+- [Mischkultur](mischkultur_21-03-30)
 
 
 # Anderes

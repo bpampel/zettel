@@ -3,18 +3,20 @@ baseURL: "https://bpampel.de/zettel"
 languageCode: "en-us"
 theme: "pulp"
 canonifyURLs: true
-uglyurls: true
 sectionPagesMenu: "main"
 enableRobotsTXT: true
+enableGitInfo: true
 
 params:
-  Author: "Benjamin Pampel"
-  publicationYear: 2024
+  Author: "Benjamin Trummer"
+  publicationYear: 2025
   avatar: "baerli.jpg"
   avatarDescription: "cake eater"
   favicon: "note_box.ico"
   css: ["css/custom.css"]
   math: true
+  dateFormat: "2006-01-01 17:00"
+
 
 markup:
   highlight:
@@ -24,4 +26,3 @@ markup:
 outputs:
   section: ["JSON", "HTML"]
   term: ["JSON", "HTML"]
-

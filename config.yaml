@@ -3,6 +3,7 @@ baseURL: "https://bpampel.de/zettel"
 languageCode: "en-us"
 theme: "pulp"
 canonifyURLs: true
+uglyURLs: true
 sectionPagesMenu: "main"
 enableRobotsTXT: true
 enableGitInfo: true

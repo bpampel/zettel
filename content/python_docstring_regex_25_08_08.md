@@ -11,5 +11,6 @@ Tools like ruff can do that partially for function and class docstrings, but I a
 
 Therefore I used a vim regex:
 
-```:%s/^\(\s*\)"""\(\(\s*[^."]\+\)\+\)\("""\)\?\s*$/\1"""\2.\4/g```
-
+~~~
+    :%s/^\(\s*\)"""\(\(\s*[^."]\+\)\+\)\("""\)\?\s*$/\1"""\2.\4/g
+~~~

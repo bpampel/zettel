@@ -24,7 +24,7 @@ menu: 'main'
 - [Biblatex Customizations](biblatex_customizations_22-01-26)
 - [Latex beamer with enumitem](latex_beamer_with_enumitem)
 - [Github pages with custom domain](github_pages_custom_domain_22-03-15)
-- [Insert missing periods into python docstrings using regex](python_docstring_regex_25_08_08)
+- [Insert missing periods into python docstrings using regex](python_docstring_regex_25-08-08)
 
 
 # Politik / Gesellschaft / Philosophie

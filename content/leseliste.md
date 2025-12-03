@@ -7,6 +7,11 @@ draft: false
 
 ## Leseliste
 
+- Marcia Bjornerud - [Zeitbewusstheit](https://eichendorff21.de/buch/9783751801119/)
+- Frédéric Valin, Paul Schuberth - [Die verdrängte Pandemie](https://unrast-verlag.de/produkt/die-verdraengte-pandemie/)
+- David Levithian - [Songs for other peoples weddings](https://www.genialokal.de/Produkt/David-Levithan-Jens-Lekman/Songs-for-Other-Peoples-Weddings_lid_55009120.html)
+- Cory Doctorow - [Enshittification](https://www.genialokal.de/Produkt/Cory-Doctorow/Enshittification_lid_56002281.html)
+- Alfred Möller - [Die Dauerwaldwaldidee](https://www.matthes-seitz-berlin.de/buch/die-dauerwaldidee.html)
 - Ngũgĩ wa Thiong´o - [Devil on the cross](https://www.buecher.de/shop/englische-buecher/devil-on-the-cross/ngugi-wa-thiongo/products_products/detail/prod_id/39743482/)
 - bell hooks - [die Bedeutung von Klasse](https://www.unrast-verlag.de/vorankuendigungen/die-bedeutung-von-klasse-detail)
 - Isabella Hermann - [Zukunft ohne Angst](https://www.oekom.de/buch/zukunft-ohne-angst-9783987261510)
@@ -39,6 +44,7 @@ draft: false
 - Anand Giridharadas - [Winners Take All: The Elite Charade of Changing the World](https://www.genialokal.de/Produkt/Anand-Giridharadas/Winners-Take-All_lid_38765962.html)
 - David Bond - [Negative Ecologies](https://www.ucpress.edu/book/9780520386785/negative-ecologies)
 - Betrand Russell - [Introduction to mathematical philosophy](https://www.genialokal.de/Produkt/Bertrand-Russell/Introduction-to-Mathematical-Philosophy_lid_12541575.html), [Probleme der Philosophie](https://www.genialokal.de/Produkt/Bertrand-Russell/Probleme-der-Philosophie_lid_1430674.html)
+- Jack Vance - The Dying Earth
 
 ### "Klassiker"
 - James Joyce - Ulysees

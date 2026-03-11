@@ -7,6 +7,7 @@ draft: false
 
 ## Leseliste
 
+- Ada Palmer - [Inventing the Renaissance](https://www.adapalmer.com/publication/inventing-the-renaissance/)
 - Marcia Bjornerud - [Zeitbewusstheit](https://eichendorff21.de/buch/9783751801119/)
 - Frédéric Valin, Paul Schuberth - [Die verdrängte Pandemie](https://unrast-verlag.de/produkt/die-verdraengte-pandemie/)
 - David Levithian - [Songs for other peoples weddings](https://www.genialokal.de/Produkt/David-Levithan-Jens-Lekman/Songs-for-Other-Peoples-Weddings_lid_55009120.html)

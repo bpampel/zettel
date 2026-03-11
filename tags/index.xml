@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Zettel</title>
+    <link>https://bpampel.de/zettel/tags/index.html</link>
+    <description>Recent content in Tags on Zettel</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Mar 2026 14:16:30 +0100</lastBuildDate>
+    <atom:link href="https://bpampel.de/zettel/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>https://bpampel.de/zettel/tags/coding.json</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/coding.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://bpampel.de/zettel/tags/git.json</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/git.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Beamer</title>
+      <link>https://bpampel.de/zettel/tags/beamer.json</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/beamer.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enumerate</title>
+      <link>https://bpampel.de/zettel/tags/enumerate.json</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/enumerate.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Latex</title>
+      <link>https://bpampel.de/zettel/tags/latex.json</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/latex.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Presentation</title>
+      <link>https://bpampel.de/zettel/tags/presentation.json</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/presentation.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tex</title>
+      <link>https://bpampel.de/zettel/tags/tex.json</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/tex.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://bpampel.de/zettel/tags/github.json</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/github.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Actions</title>
+      <link>https://bpampel.de/zettel/tags/github-actions.json</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/github-actions.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://bpampel.de/zettel/tags/hugo.json</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/hugo.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mathjax</title>
+      <link>https://bpampel.de/zettel/tags/mathjax.json</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/mathjax.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Website</title>
+      <link>https://bpampel.de/zettel/tags/website.json</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/website.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dns</title>
+      <link>https://bpampel.de/zettel/tags/dns.json</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/dns.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Domain</title>
+      <link>https://bpampel.de/zettel/tags/domain.json</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/domain.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biblatex</title>
+      <link>https://bpampel.de/zettel/tags/biblatex.json</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/biblatex.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bibliography</title>
+      <link>https://bpampel.de/zettel/tags/bibliography.json</link>
+      <pubDate>Wed, 26 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/bibliography.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Geschichte</title>
+      <link>https://bpampel.de/zettel/tags/geschichte.json</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/geschichte.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gesellschaft</title>
+      <link>https://bpampel.de/zettel/tags/gesellschaft.json</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/gesellschaft.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Klima</title>
+      <link>https://bpampel.de/zettel/tags/klima.json</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/klima.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Philosophie</title>
+      <link>https://bpampel.de/zettel/tags/philosophie.json</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/philosophie.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zukunft</title>
+      <link>https://bpampel.de/zettel/tags/zukunft.json</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/zukunft.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Autocorrelation</title>
+      <link>https://bpampel.de/zettel/tags/autocorrelation.json</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/autocorrelation.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Error Metric</title>
+      <link>https://bpampel.de/zettel/tags/error-metric.json</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/error-metric.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Langevin Dynamics</title>
+      <link>https://bpampel.de/zettel/tags/langevin-dynamics.json</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/langevin-dynamics.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monte Carlo</title>
+      <link>https://bpampel.de/zettel/tags/monte-carlo.json</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/monte-carlo.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sampling</title>
+      <link>https://bpampel.de/zettel/tags/sampling.json</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/sampling.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Awk</title>
+      <link>https://bpampel.de/zettel/tags/awk.json</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/awk.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Columns</title>
+      <link>https://bpampel.de/zettel/tags/columns.json</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/columns.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Difference</title>
+      <link>https://bpampel.de/zettel/tags/difference.json</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/difference.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnuplot</title>
+      <link>https://bpampel.de/zettel/tags/gnuplot.json</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/gnuplot.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fes</title>
+      <link>https://bpampel.de/zettel/tags/fes.json</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/fes.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free_energy</title>
+      <link>https://bpampel.de/zettel/tags/free_energy.json</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/free_energy.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpolating Polynomial</title>
+      <link>https://bpampel.de/zettel/tags/interpolating-polynomial.json</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/interpolating-polynomial.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wavelets</title>
+      <link>https://bpampel.de/zettel/tags/wavelets.json</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/wavelets.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basis</title>
+      <link>https://bpampel.de/zettel/tags/basis.json</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/basis.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basisfunction</title>
+      <link>https://bpampel.de/zettel/tags/basisfunction.json</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://bpampel.de/zettel/tags/basisfunction.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

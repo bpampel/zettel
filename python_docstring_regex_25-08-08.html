@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Insert missing periods into python docstrings using regex - Zettel
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Benjamin Trummer" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bpampel.de/zettel/img/note_box.ico">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style.min.99cce017d17cc3da34964bba0051540f661dc4960ecad5ef9ad9c624a1c2e11b.css" integrity="sha256-mczgF9F8w9o0lku6AFFUD2YdxJYOytXvmtnGJKHC4Rs=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bpampel.de/zettel/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  
+
+  
+  
+
+  
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$']],
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams',
+    autoload: {
+      color: [],
+      colorv2: ['color']
+    },
+    packages: {'[+]': ['noerrors']}
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process'
+  },
+  loader: {
+    load: ['[tex]/noerrors']
+  }
+};
+</script>
+<script src="mathjax/tex-chtml.js" id="MathJax-script"></script>
+
+  
+</head>
+
+  <body>
+    
+  <h1>Insert missing periods into python docstrings using regex</h1>
+  <header>
+  
+  <div class="avatar">
+    <img class="avatarMask" src="https://bpampel.de/zettel//img/baerli.jpg" alt="cake eater">
+    <a href="https://bpampel.de/zettel/"><img class="avatar-border" src="https://bpampel.de/zettel//img/avatar-border.svg" alt=""></a>
+  </div>
+  
+  <h2><a class="author" href="https://bpampel.de/zettel/">Zettel</a></h2>
+</header>
+
+  
+  
+  
+  <p class="date">August 8, 2025</p>
+  
+  
+  
+  
+  <div id="contentBody">
+    <p>The first line of python docstrings is meant to always end with a period: <a href="https://peps.python.org/pep-0257/">PEP 257</a></p>
+<p>As I only learned of this recently I tried to fix it in my existing code.
+Tools like ruff can do that partially for function and class docstrings, but I also regularly use attribute docstrings.</p>
+<p>Therefore I used a vim regex:</p>
+<pre tabindex="0"><code>    :%s/^\(\s*\)&#34;&#34;&#34;\(\(\s*[^.&#34;]\+\)\+\)\(&#34;&#34;&#34;\)\?\s*$/\1&#34;&#34;&#34;\2.\4/g
+</code></pre>
+  </div>
+  <footer>
+  <p>
+  &copy; 2025 Benjamin Trummer.
+  Powered by <a href="https://gohugo.io/">Hugo</a>
+  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+  </p>
+</footer>
+
+
+  </body>
+</html>
